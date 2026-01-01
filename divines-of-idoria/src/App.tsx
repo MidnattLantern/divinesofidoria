@@ -1,33 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { NavLink, Route, Routes } from 'react-router'
 import './App.css'
+import MoraPage from './pages/mora/MoraPage';
+
+function DisplayIndex () {
+    return (
+      <>
+        <h1>Divines of Idoria</h1>
+      </>
+    );
+};
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <ul>
+          <li>
+            <NavLink to={"/"}>Home</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/mora-goddess"}>Mora</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/korain-god"}>Korain</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/pooraat-god"}>Po'oraat</NavLink>
+          </li>
+        </ul>
+      </header>
+      <main>
+        <Routes>
+          <Route index element={<DisplayIndex/>}/>
+          <Route path='/mora-goddess/*' element={<MoraPage/>}/>
+          <Route path='/korain-god/*' element={<h1>Korain God</h1>}/>
+          <Route path='/pooraat-god/*' element={<h1>Po'oraat God</h1>}/>
+        </Routes>
+      </main>
+      <footer>
+
+      </footer>
     </>
   )
 }
