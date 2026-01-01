@@ -2,6 +2,7 @@ import { NavLink, Route, Routes } from 'react-router'
 import './App.css'
 import MoraPage from './pages/mora/MoraPage';
 import KorainPage from './pages/korian/KorainPage';
+import PooraatPage from './pages/pooraat/PooraatPage';
 
 function DisplayIndex () {
     return (
@@ -36,7 +37,7 @@ function App() {
           <Route index element={<DisplayIndex/>}/>
           <Route path='/mora-goddess/*' element={<MoraPage/>}/>
           <Route path='/korain-god/*' element={<KorainPage/>}/>
-          <Route path='/pooraat-god/*' element={<h1>Po'oraat God</h1>}/>
+          <Route path='/pooraat-god/*' element={<PooraatPage/>}/>
         </Routes>
       </main>
       <footer>
