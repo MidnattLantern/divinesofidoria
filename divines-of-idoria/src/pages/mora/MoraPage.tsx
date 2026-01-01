@@ -1,17 +1,21 @@
 import { NavLink, Route, Routes } from "react-router";
 import "./MoraPage.css";
 import MoraPortraitPage from "./mora-portrait/MoraPortraitPage";
+import MoraSymbolPage from "./mora-symbol/MoraSymbolPage";
+import MoraTempleInteriorPage from "./mora-temple-interior/MoraTempleInteriorPage";
+import MoraTempleExteriorPage from "./mora-temple-exterior/MoraTempleExteriorPage";
+import MoraShrinePage from "./mora-shrine/MoraShrinePage";
 
 function DisplayMoraPage() {
     return (
-        <>
+        <div className="mora-page-view">
             <h1>Mora Goddess</h1>
             <NavLink to={"portrait"}>Portrait</NavLink>
             <NavLink to={"symbol"}>Symbol</NavLink>
             <NavLink to={"temple-interior"}>Temple Interior</NavLink>
             <NavLink to={"temple-exterior"}>Temple Exterior</NavLink>
             <NavLink to={"shrine"}>Shrine</NavLink>
-        </>
+        </div>
     );
 };
 
@@ -20,10 +24,10 @@ function MoraPage() {
         <Routes>
             <Route index element={<DisplayMoraPage/>}/>
             <Route path="portrait" element={<MoraPortraitPage/>}/>
-            <Route path="symbol" element={<h1>Symbol</h1>}/>
-            <Route path="temple-interior" element={<h1>Temple Interior</h1>}/>
-            <Route path="temple-exterior" element={<h1>Temple Exterior</h1>}/>
-            <Route path="shrine" element={<h1>Shrine</h1>}/>
+            <Route path="symbol" element={<MoraSymbolPage/>}/>
+            <Route path="temple-interior" element={<MoraTempleInteriorPage/>}/>
+            <Route path="temple-exterior" element={<MoraTempleExteriorPage/>}/>
+            <Route path="shrine" element={<MoraShrinePage/>}/>
         </Routes>
     );
 };
