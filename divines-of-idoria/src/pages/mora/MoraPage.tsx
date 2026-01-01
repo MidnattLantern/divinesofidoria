@@ -5,8 +5,13 @@ import MoraSymbolPage from "./mora-symbol/MoraSymbolPage";
 import MoraTempleInteriorPage from "./mora-temple-interior/MoraTempleInteriorPage";
 import MoraTempleExteriorPage from "./mora-temple-exterior/MoraTempleExteriorPage";
 import MoraShrinePage from "./mora-shrine/MoraShrinePage";
+import { useEffect } from "react";
 
 function DisplayMoraPage() {
+    useEffect(() => {
+        document.title = "Idoria | Mora Goddes";
+    }, []);
+
     return (
         <div className="mora-page-view">
             <h1>Mora Goddess</h1>

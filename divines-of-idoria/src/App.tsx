@@ -3,8 +3,13 @@ import './App.css'
 import MoraPage from './pages/mora/MoraPage';
 import KorainPage from './pages/korian/KorainPage';
 import PooraatPage from './pages/pooraat/PooraatPage';
+import { useEffect } from 'react';
 
 function DisplayIndex () {
+    useEffect(() => {
+        document.title = "Divines of Idoria";
+    }, []);
+
     return (
       <>
         <h1>Divines of Idoria</h1>

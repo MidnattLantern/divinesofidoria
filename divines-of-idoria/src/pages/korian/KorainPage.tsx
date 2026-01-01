@@ -5,8 +5,13 @@ import KorainSymbolPage from "./korain-symbol/KorainSymbolPage";
 import KorainTempleInterior from "./korain-temple-interior/KorainTempleInterior";
 import KorainTempleExterior from "./korain-temple-exterior/KorainTempleExterior";
 import KorainShrinePage from "./korain-shrine/KorainShrinePage";
+import { useEffect } from "react";
 
 function DisplayKorainPage() {
+    useEffect(() => {
+        document.title = "Idoria | Korain God";
+    }, []);
+
     return (
         <div className="korain-page-view">
             <h1>Korain God</h1>

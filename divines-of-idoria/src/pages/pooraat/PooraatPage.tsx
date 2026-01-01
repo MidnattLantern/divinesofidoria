@@ -4,8 +4,13 @@ import PooraatSymbolPage from "./pooraat-symbol/PooraatSymbolPage";
 import PooraatPortraitPage from "./pooraat-portrait/PooraatPortraitPage";
 import PooraatTemplePage from "./pooraat-temple/PooraatTemplePage";
 import PooraatShrinePage from "./pooraat-shrine/PooraatShrinePage";
+import { useEffect } from "react";
 
 function DisplayPooraatPage() {
+    useEffect(() => {
+        document.title = "Idoria | Po'oraat God";
+    }, []);
+
     return (
         <div className="pooraat-page-view">
             <h1>Po'oraat God</h1>
