@@ -4,6 +4,7 @@ header {
     width: 100%;
     height: fit-content;
     padding: 20px;
+    z-index: 2;
 }
 
 header ul {
@@ -14,6 +15,8 @@ header ul {
     height: 50px;
     border: 1px solid var(--white-transparent);
     border-radius: 100vmax;
+    background-color: var(--black-transparent);
+    backdrop-filter: blur(3px);
 }
 
 header ul li {
@@ -34,7 +37,11 @@ main {
     margin-top: 20px;
 }
 
-@media screen and (min-width: 628px) {
+footer {
+    height: 90px;
+}
+
+@media screen and (min-width: 768px) {
     header {
         top: 0;
     }

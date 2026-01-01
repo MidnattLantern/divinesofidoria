@@ -7,10 +7,14 @@
 }
 
 :root {
+    --transparent: rgba(0,0,0,0);
+    --black: rgb(0,0,0);
+    --black-transparent: rgba(0,0,0,0.5);
     --white: rgb(200, 200, 200);
     --white-transparent: rgba(200, 200, 200, 0.5);
     --theme: rgb(100, 90, 190);
     --theme-transparent: rgba(100, 90, 190, 0.5);
+    --theme-light: rgb(150, 145, 230);
 }
 
 body {
@@ -27,6 +31,10 @@ p, a {
 h1, h2 {
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.8rem;
 }
 
 a:hover {
