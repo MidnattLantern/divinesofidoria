@@ -1,0 +1,4 @@
+.korain-page-view {
+    display: flex;
+    flex-direction: column;
+}
