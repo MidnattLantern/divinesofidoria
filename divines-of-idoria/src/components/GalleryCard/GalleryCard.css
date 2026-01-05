@@ -62,8 +62,8 @@
 .gallery-card-view > a:hover,
 .gallery-card-view > a:focus {
     text-decoration: underline;
-    color: var(--theme);
-    border-color: var(--theme);
+    color: var(--theme-light);
+    border-color: var(--theme-ligght);
     outline: none;
 }
 
