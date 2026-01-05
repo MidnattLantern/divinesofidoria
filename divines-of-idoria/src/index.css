@@ -15,6 +15,10 @@
     --theme: rgb(100, 90, 190);
     --theme-transparent: rgba(100, 90, 190, 0.5);
     --theme-light: rgb(150, 145, 230);
+
+    --pillify: 100vmax;
+    --box-shadow: 0 2px 4px var(--black-transparent);
+    --box-shadow-pressed: inset 0 2px 4px var(--black-transparent);
 }
 
 body {
