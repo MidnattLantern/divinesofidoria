@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes } from 'react-router'
+import { NavLink, Route, Routes } from 'react-router';
 import './App.css'
 import MoraPage from './pages/mora/MoraPage';
 import KorainPage from './pages/korian/KorainPage';
@@ -22,20 +22,22 @@ function App() {
   return (
     <>
       <header>
-        <ul>
-          <li>
-            <NavLink to={"/"}>Home</NavLink>
-          </li>
-          <li>
-            <NavLink to={"/mora-goddess"}>Mora</NavLink>
-          </li>
-          <li>
-            <NavLink to={"/korain-god"}>Korain</NavLink>
-          </li>
-          <li>
-            <NavLink to={"/pooraat-god"}>Po'oraat</NavLink>
-          </li>
-        </ul>
+        <nav aria-label="Primary navigation bar">
+          <ul>
+            <li>
+              <NavLink to={"/"} end>Home</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/mora-goddess"}>Mora</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/korain-god"}>Korain</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/pooraat-god"}>Po'oraat</NavLink>
+            </li>
+          </ul>
+        </nav>
       </header>
       <main>
         <Routes>

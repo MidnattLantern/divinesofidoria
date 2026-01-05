@@ -1,13 +1,34 @@
+import { useEffect } from "react";
 import "./MoraTempleInteriorPage.css";
+import Gallery from "../../../components/Gallery/Gallery";
+import { Route, Routes } from "react-router";
+import PreviewMoraTempleInteriorLossless from "../../../assets/mora-assets/preview/preview-temple-interior.webp";
+import DownloadMoraTempleInteriorLossless from "../../../assets/mora-assets/downloadable/temple-interior.png";
 
-function MoraTempleInteriorPage() {
+const MoraTempleInteriorItems = [
+    {
+        title: "Lossless",
+        previewSource: PreviewMoraTempleInteriorLossless,
+        downloadSource: DownloadMoraTempleInteriorLossless
+    }
+];
+
+function DisplayMoraTempleInteriorPage() {
+    useEffect(() => {
+        document.title = "Idoria | Mora | Interior";
+    }, []);
+
     return (
-        <>
-            <h2>Mora's Temple Interior</h2>
-        </>
+        <Gallery deity="Mora" projectName="Temple Interior" items={MoraTempleInteriorItems}/>
     );
 };
 
-// final tree branch
+function MoraTempleInteriorPage() {
+    return (
+        <Routes>
+            <Route index element={<DisplayMoraTempleInteriorPage/>}/>
+        </Routes>
+    );
+};
 
 export default MoraTempleInteriorPage;

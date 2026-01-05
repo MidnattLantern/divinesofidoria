@@ -24,6 +24,7 @@
     width: inherit;
     height: auto;
     aspect-ratio: inherit;
+    object-fit: cover;
 }
 
 .gallery-card-view > figcaption {
@@ -48,7 +49,7 @@
     bottom: 10px;
     left: 10px;
     background-color: var(--black-transparent);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
