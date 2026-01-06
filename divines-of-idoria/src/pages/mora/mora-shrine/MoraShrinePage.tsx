@@ -18,7 +18,7 @@ const MoraShrineItems = [
         previewSource: PreviewMoraShrineEmpty,
         downloadSource: DownloadMoraShrineEmpty
     }
-]
+];
 
 function DisplayMoraShrinePage() {
     useEffect(() => {

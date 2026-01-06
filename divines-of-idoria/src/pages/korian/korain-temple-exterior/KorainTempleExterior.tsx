@@ -1,13 +1,36 @@
+import { Route, Routes } from "react-router";
+import Gallery from "../../../components/Gallery/Gallery";
 import "./KorainTempleExterior.css";
+import PreviewKorainTempleExteriorLossless from "../../../assets/korain-assets/preview/preview-temple-exterior-lossless.webp";
+import DownloadKorainTempleExteriorLossless from "../../../assets/korain-assets/downloadable/temple-exterior-lossless.png";
+import PreviewKorainTempleExteriorNoFilter from "../../../assets/korain-assets/preview/preview-temple-exterior-no-filter.webp";
+import DownloadKorainTempleExteriorNoFilter from "../../../assets/korain-assets/downloadable/temple-exterior-no-filter.png";
 
-function KorainTempleExterior() {
+const KorainTempleExteriorItems = [
+    {
+        title: "Lossless",
+        previewSource: PreviewKorainTempleExteriorLossless,
+        downloadSource: DownloadKorainTempleExteriorLossless
+    },
+    {
+        title: "No Filter",
+        previewSource: PreviewKorainTempleExteriorNoFilter,
+        downloadSource: DownloadKorainTempleExteriorNoFilter
+    }
+];
+
+function DisplayKorainTempleExterior() {
     return (
-        <>
-            <h2>Korain's Temple Exterior</h2>
-        </>
+        <Gallery deity="Korain" projectName="Temple Exterior" items={KorainTempleExteriorItems}/>
     );
 };
 
-// final tree branch
+function KorainTempleExterior() {
+    return (
+        <Routes>
+            <Route index element={<DisplayKorainTempleExterior/>}/>
+        </Routes>
+    );
+};
 
 export default KorainTempleExterior;
