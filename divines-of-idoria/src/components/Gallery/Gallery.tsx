@@ -5,6 +5,7 @@ interface GalleryItem {
     title: string;
     previewSource: string;
     downloadSource: string;
+    useWideAspectRatio?: boolean;
 };
 
 interface Props {
@@ -28,6 +29,7 @@ function Gallery({ deity, projectName, items }: Props) {
                             title={item.title}
                             previewSource={item.previewSource}
                             downloadSource={item.downloadSource}
+                            useWideAspect={item.useWideAspectRatio}
                         />
                     </li>
                 ))}

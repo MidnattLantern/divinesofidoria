@@ -9,7 +9,8 @@ const MoraTempleInteriorItems = [
     {
         title: "Lossless",
         previewSource: PreviewMoraTempleInteriorLossless,
-        downloadSource: DownloadMoraTempleInteriorLossless
+        downloadSource: DownloadMoraTempleInteriorLossless,
+        useWideAspectRatio: true
     }
 ];
 

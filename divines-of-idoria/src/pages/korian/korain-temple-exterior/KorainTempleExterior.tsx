@@ -10,12 +10,14 @@ const KorainTempleExteriorItems = [
     {
         title: "Lossless",
         previewSource: PreviewKorainTempleExteriorLossless,
-        downloadSource: DownloadKorainTempleExteriorLossless
+        downloadSource: DownloadKorainTempleExteriorLossless,
+        useWideAspectRatio: true
     },
     {
         title: "No Filter",
         previewSource: PreviewKorainTempleExteriorNoFilter,
-        downloadSource: DownloadKorainTempleExteriorNoFilter
+        downloadSource: DownloadKorainTempleExteriorNoFilter,
+        useWideAspectRatio: true
     }
 ];
 

@@ -9,7 +9,8 @@ const MoraTempleExteriorItems = [
     {
         title: "Lossless",
         previewSource: PreviewMoraTempleExteriorLossless,
-        downloadSource: DownloadMoraTempleExteriorLossless
+        downloadSource: DownloadMoraTempleExteriorLossless,
+        useWideAspectRatio: true
     }
 ]
 

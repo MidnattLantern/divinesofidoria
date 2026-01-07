@@ -1,29 +1,41 @@
 import "./PooraatSymbolPage.css";
+import { useEffect } from "react";
+import Gallery from "../../../components/Gallery/Gallery";
 import PreviewLossless from "../../../assets/pooraat-assets/preveiw/preview-lossless.webp";
-import PreviewFiltered from "../../../assets/pooraat-assets/preveiw/preview-filtered.webp";
 import DownloadLossless from "../../../assets/pooraat-assets/downloadable/lossless.png";
+import PreviewFiltered from "../../../assets/pooraat-assets/preveiw/preview-filtered.webp";
 import DownloadFiltered from "../../../assets/pooraat-assets/downloadable/filtered.png";
+import { Route, Routes } from "react-router";
 
-function PooraatSymbolPage() {
+const PooraatSymbolItems = [
+    {
+        title: "Lossless",
+        previewSource: PreviewLossless,
+        downloadSource: DownloadLossless
+    },
+    {
+        title: "Filtered",
+        previewSource: PreviewFiltered,
+        downloadSource: DownloadFiltered
+    }
+];
+
+function DisplayPooraatSymbolPage() {
+    useEffect(() => {
+        document.title = "Idoria | Po'oraat | Symbol";
+    }, []);
+
     return (
-        <div className="pooraat-symbol-view">
-            <h2>Po'oraat's Symbol</h2>
-            <div className="cards-container">
-                <section className="image-card">
-                    <h3>Lossless</h3>
-                    <a href={DownloadLossless} download>Download Lossless</a>
-                    <img src={PreviewLossless} alt="Lossless verson" width={3000} height={3000} className="preview-image"/>
-                </section>
-                <section className="image-card">
-                    <h3>Filtered</h3>
-                    <a href={DownloadFiltered} download>Download Filtered</a>
-                    <img src={PreviewFiltered} alt="Filtered version" width={3000} height={3000} className="preview-image"/>
-                </section>
-            </div>
-        </div>
+        <Gallery deity="Po'oraat" projectName="Symbol" items={PooraatSymbolItems}/>
     );
 };
 
-// final tree branch
+function PooraatSymbolPage() {
+    return (
+        <Routes>
+            <Route index element={<DisplayPooraatSymbolPage/>}/>
+        </Routes>
+    );
+};
 
 export default PooraatSymbolPage;

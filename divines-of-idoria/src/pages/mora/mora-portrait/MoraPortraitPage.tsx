@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./MoraPortraitPage.css";
 import { Route, Routes } from "react-router";
-import GalleryCard from "../../../components/GalleryCard/GalleryCard";
+import Gallery from "../../../components/Gallery/Gallery";
 
 import PreviewPortraitLossless from "../../../assets/mora-assets/preview/preview-portrait-lossless.webp";
 import DownloadPortraitLossless from "../../../assets/mora-assets/downloadable/portrait-lossless.png";
@@ -12,45 +12,36 @@ import DownloadPortraitSketch from "../../../assets/mora-assets/downloadable/por
 import PreviewPortraitSketchLegacy from "../../../assets/mora-assets/preview/preview-portrait-sketch-legacy.webp";
 import DownloadPortraitSketchLegacy from "../../../assets/mora-assets/downloadable/portrait-sketch-legacy.png";
 
+const MoraPortraitItems = [
+    {
+        title: "Lossless",
+        previewSource: PreviewPortraitLossless,
+        downloadSource: DownloadPortraitLossless
+    },
+    {
+        title: "Legacy",
+        previewSource: PreviewPortraitLegacy,
+        downloadSource: DownloadPortraitLegacy
+    },
+    {
+        title: "Sketch",
+        previewSource: PreviewPortraitSketch,
+        downloadSource: DownloadPortraitSketch
+    },
+    {
+        title: "Sketch Legacy",
+        previewSource: PreviewPortraitSketchLegacy,
+        downloadSource: DownloadPortraitSketchLegacy
+    }
+];
+
 function DisplayMoraPortraitPage() {
     useEffect(() => {
         document.title = "Idoria | Mora | Portrait";
     }, []);
 
     return (
-        <section className="gallery-view">
-            <h1><span>Mora Goddess</span><span>Portrait</span></h1>
-            <ul>
-                <li>
-                    <GalleryCard
-                    title="Lossless"
-                    previewSource={PreviewPortraitLossless}
-                    downloadSource={DownloadPortraitLossless}
-                    />
-                </li>
-                <li>
-                    <GalleryCard
-                    title="Legacy"
-                    previewSource={PreviewPortraitLegacy}
-                    downloadSource={DownloadPortraitLegacy}
-                    />
-                </li>
-                <li>
-                    <GalleryCard
-                    title="Sketch"
-                    previewSource={PreviewPortraitSketch}
-                    downloadSource={DownloadPortraitSketch}
-                    />
-                </li>
-                <li>
-                    <GalleryCard
-                    title="Sketch Legacy"
-                    previewSource={PreviewPortraitSketchLegacy}
-                    downloadSource={DownloadPortraitSketchLegacy}
-                    />
-                </li>
-            </ul>
-        </section>
+        <Gallery deity="Mora" projectName="Portrait" items={MoraPortraitItems}/>
     );
 };
 

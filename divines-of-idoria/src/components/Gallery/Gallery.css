@@ -12,7 +12,9 @@
 
 .gallery-view > h1,
 .gallery-view > ul > li {
-    margin: 2vw;
+    margin-top: 30px;
+    width: 100vw;
+    overflow: scroll;
 }
 
 @media screen and (min-width: 1024px) {
@@ -22,9 +24,8 @@
     }
     
     .gallery-view > ul > li {
-        display: block;
-        width: 100%;
-        max-width: 50vw;
-        margin: 0.5vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
     }
 }

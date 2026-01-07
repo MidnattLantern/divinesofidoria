@@ -9,7 +9,8 @@ const KorainTempleInteriorItems = [
     {
         title: "Lossless",
         previewSource: PreviewKorainTempleInteriorLossless,
-        downloadSource: DownloadKorainTempleInteriorLossless
+        downloadSource: DownloadKorainTempleInteriorLossless,
+        useWideAspectRatio: true
     }
 ];
 

@@ -5,6 +5,10 @@
     aspect-ratio: 1/1;
 }
 
+.use-wide-aspect {
+    aspect-ratio: 2/1;
+}
+
 .gallery-card-view > figcaption,
 .gallery-card-view > a {
     opacity: 0;
@@ -71,4 +75,11 @@
 .gallery-card-view > a:active {
     box-shadow: var(--box-shadow-pressed);
     transform: translate(0, 2px);
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery-card-view {
+        width: 100%;
+        max-width: 25vw;
+    }
 }
