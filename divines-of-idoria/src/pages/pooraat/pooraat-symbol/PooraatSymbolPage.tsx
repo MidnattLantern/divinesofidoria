@@ -18,7 +18,7 @@ const PooraatSymbolItems = [
         previewSource: PreviewFiltered,
         downloadSource: DownloadFiltered
     }
-];
+]
 
 function DisplayPooraatSymbolPage() {
     useEffect(() => {
@@ -28,7 +28,7 @@ function DisplayPooraatSymbolPage() {
     return (
         <Gallery deity="Po'oraat" projectName="Symbol" items={PooraatSymbolItems}/>
     );
-};
+}
 
 function PooraatSymbolPage() {
     return (
@@ -36,6 +36,6 @@ function PooraatSymbolPage() {
             <Route index element={<DisplayPooraatSymbolPage/>}/>
         </Routes>
     );
-};
+}
 
-export default PooraatSymbolPage;
+export default PooraatSymbolPage
