@@ -1,13 +1,42 @@
 import "./PooraatTemplePage.css";
+import Gallery from "../../../components/Gallery/Gallery";
+import Preview from "../../../assets/pooraat-assets/preveiw/pooraat-temple-preview.webp";
+import DownloadLosless from "../../../assets/pooraat-assets/downloadable/pooraat-temple-lossless.png";
+import Download1MB from "../../../assets/pooraat-assets/downloadable/pooraat-temple-1mb.jpg";
+import { Route, Routes } from "react-router";
+import { useEffect } from "react";
+
+const PooraatTempleItems = [
+    {
+        title: "Lossless",
+        previewSource: Preview,
+        downloadSource: DownloadLosless
+    },
+    {
+        title: "1 MB",
+        previewSource: Preview,
+        downloadSource: Download1MB
+    }
+]
+
+function DisplayPooraatTemplePage() {
+    useEffect(() => {
+        document.title = "Idoria | Po'oraat | Temple";
+    }, []);
+
+    return (
+        <Gallery deity="Po'oraat" projectName="Temple" items={PooraatTempleItems}/>
+    );
+}
 
 function PooraatTemplePage() {
     return (
         <>
-            <h2>Po'oraat's Temple</h2>
+            <Routes>
+                <Route index element={<DisplayPooraatTemplePage/>}/>
+            </Routes>
         </>
     );
 };
-
-// final tree branch
 
 export default PooraatTemplePage;
