@@ -7,21 +7,31 @@ header {
     z-index: 2;
 }
 
+header button {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--pillify);
+    background-color: var(--black-transparent);
+    backdrop-filter: blur(1px);
+    border: 1px solid var(--white-transparent);
+    color: var(--white);
+    margin-top: 20px;
+}
+
 header ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
     border: 1px solid var(--white-transparent);
-    border-radius: 100vmax;
+    border-radius: 24px;
     background-color: var(--black-transparent);
     backdrop-filter: blur(3px);
 }
 
 header ul li {
     width: 100%;
-    height: 100%;;
+    height: 48px;
 }
 
 header ul li a {
@@ -58,12 +68,34 @@ footer {
     height: 90px;
 }
 
+.phone-only-hidden {
+    visibility: hidden;
+}
+
 @media screen and (min-width: 768px) {
     header {
         top: 0;
     }
 
+    header button {
+        visibility: hidden;
+    }
+
+    header ul {
+        flex-direction: row;
+        height: 50px;
+        border-radius: var(--pillify);
+    }
+
+    header ul li {
+        height: 100%;
+    }
+
     main {
         margin-top: 100px;
+    }
+
+    .phone-only-hidden {
+        visibility: visible;
     }
 }

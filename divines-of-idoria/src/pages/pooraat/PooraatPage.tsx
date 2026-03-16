@@ -28,7 +28,6 @@ function PooraatPage() {
             <Route index element={<DisplayPooraatPage/>}/>
             <Route path="symbol" element={<PooraatSymbolPage/>}/>
             <Route path="portrait" element={<PooraatPortraitPage/>}/>
-            <Route path="symbol" element={<PooraatSymbolPage/>}/>
             <Route path="temple" element={<PooraatTemplePage/>}/>
             <Route path="shrine" element={<PooraatShrinePage/>}/>
         </Routes>
