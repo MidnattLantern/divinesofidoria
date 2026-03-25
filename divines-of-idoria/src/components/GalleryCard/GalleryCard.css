@@ -1,45 +1,26 @@
 .gallery-card-view {
     position: relative;
     width: 100%;
-    height: auto;
     aspect-ratio: 1/1;
+    overflow: hidden;
 }
 
 .use-wide-aspect {
     aspect-ratio: 2/1;
 }
 
-.gallery-card-view > figcaption,
-.gallery-card-view > a {
-    opacity: 0;
-    transition: all 0.3s ease;
-}
-.gallery-card-view:hover > figcaption,
-.gallery-card-view:hover > a,
-.gallery-card-view:focus-within > figcaption,
-.gallery-card-view:focus-within > a {
-    opacity: 1;
-}
-
 .gallery-card-view > img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: inherit;
-    height: auto;
-    aspect-ratio: inherit;
-    object-fit: cover;
 }
 
 .gallery-card-view > figcaption {
     position: absolute;
-    text-align: left;
-    padding: 10px;
     top: 0;
     left: 0;
-    width: inherit;
-    height: auto;
-    aspect-ratio: inherit;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
     font-family: sans-serif;
     color: var(--white);
     font-size: 2rem;
@@ -77,9 +58,21 @@
     transform: translate(0, 2px);
 }
 
-@media screen and (min-width: 1024px) {
-    .gallery-card-view {
-        width: 100%;
-        max-width: 25vw;
+@media screen and (min-width: 768px) {
+    .gallery-card-view > figcaption,
+    .gallery-card-view > a {
+        opacity: 0;
+        transition: all 0.3s ease;
     }
+
+    .gallery-card-view:hover > figcaption,
+    .gallery-card-view:hover > a,
+    .gallery-card-view:focus-within > figcaption,
+    .gallery-card-view:focus-within > a {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
 }

@@ -1,8 +1,9 @@
-.gallery-view,
-.gallery-view > ul {
+.gallery-view {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    height: fit-content;
 }
 
 .gallery-view > h1 {
@@ -10,22 +11,6 @@
     flex-direction: column;
 }
 
-.gallery-view > h1,
-.gallery-view > ul > li {
-    margin-top: 30px;
-    width: 100vw;
-    overflow: scroll;
-}
-
 @media screen and (min-width: 1024px) {
 
-    .gallery-view > ul {
-        flex-direction: row;
-    }
-    
-    .gallery-view > ul > li {
-        display: flex;
-        justify-content: center;
-        margin-top: 0;
-    }
 }

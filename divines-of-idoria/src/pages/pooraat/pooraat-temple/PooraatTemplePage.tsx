@@ -10,12 +10,14 @@ const PooraatTempleItems = [
     {
         title: "Lossless",
         previewSource: Preview,
-        downloadSource: DownloadLosless
+        downloadSource: DownloadLosless,
+        useWideAspectRatio: true
     },
     {
         title: "1 MB",
         previewSource: Preview,
-        downloadSource: Download1MB
+        downloadSource: Download1MB,
+        useWideAspectRatio: true
     }
 ]
 
