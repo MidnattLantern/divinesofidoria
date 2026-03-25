@@ -91,6 +91,10 @@ footer {
         height: 100%;
     }
 
+    header div {
+        display: none;
+    }
+
     main {
         margin-top: 100px;
     }

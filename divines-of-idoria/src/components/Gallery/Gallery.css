@@ -11,6 +11,20 @@
     flex-direction: column;
 }
 
-@media screen and (min-width: 1024px) {
+.gallery-view > ul {
+    display: flex;
+    flex-direction: column;
+}
 
+@media screen and (min-width: 1024px) {
+    .gallery-view > ul {
+        flex-direction: row;
+    }
+    .gallery-view > h1 {
+        flex-direction: row;
+    }
+    .gallery-view > h1 > span {
+        margin: 1rem;
+        margin-top: 0;
+    }
 }
