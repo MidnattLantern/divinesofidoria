@@ -16,6 +16,9 @@
     --theme-transparent: rgba(100, 90, 190, 0.5);
     --theme-light: rgb(150, 145, 230);
 
+    --font-sans: "Almendra";
+    --font-serif: "Faculty Glyphic", sans-serif;
+
     --pillify: 100vmax;
     --box-shadow: 0 2px 4px var(--black-transparent);
     --box-shadow-pressed: inset 0 2px 4px var(--black-transparent);
@@ -25,15 +28,22 @@ body {
     background-color: rgb(0,0,0);
 }
 
+h1, h2, h3 {
+    font-family: var(--font-sans);
+}
+
+p, a, figcaption {
+    font-family: var(--font-serif);
+}
+
 h1, h2, h3, h4, h5, h6,
-p, a, span {
-    font-family: sans-serif;
+p, a {
     color: var(--white);
     text-decoration: none;
 }
 
 h1, h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 
