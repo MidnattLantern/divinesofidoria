@@ -68,6 +68,10 @@ footer {
     height: 90px;
 }
 
+img {
+    max-height: 500px
+}
+
 .phone-only-hidden {
     visibility: hidden;
 }

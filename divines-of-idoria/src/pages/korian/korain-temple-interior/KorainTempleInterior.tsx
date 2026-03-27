@@ -7,7 +7,7 @@ import DownloadKorainTempleInteriorLossless from "../../../assets/korain-assets/
 
 const KorainTempleInteriorItems = [
     {
-        title: "Lossless",
+        title: "Temple Interior",
         previewSource: PreviewKorainTempleInteriorLossless,
         downloadSource: DownloadKorainTempleInteriorLossless,
         useWideAspectRatio: true

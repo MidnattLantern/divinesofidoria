@@ -8,17 +8,20 @@ import { useEffect } from "react";
 
 const PooraatTempleItems = [
     {
-        title: "Lossless",
+        title: "Temple",
         previewSource: Preview,
         downloadSource: DownloadLosless,
-        useWideAspectRatio: true
-    },
+        useWideAspectRatio: true,
+        compressedDownloadSource: Download1MB
+    }
+    /*
     {
         title: "1 MB",
         previewSource: Preview,
         downloadSource: Download1MB,
         useWideAspectRatio: true
     }
+    */
 ]
 
 function DisplayPooraatTemplePage() {

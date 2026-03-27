@@ -6,6 +6,7 @@ interface GalleryItem {
     previewSource: string;
     downloadSource: string;
     useWideAspectRatio?: boolean;
+    compressedDownloadSource?: string;
 };
 
 interface Props {
@@ -30,6 +31,7 @@ function Gallery({ deity, projectName, items }: Props) {
                             previewSource={item.previewSource}
                             downloadSource={item.downloadSource}
                             useWideAspect={item.useWideAspectRatio}
+                            compressedDownloadSource={item.compressedDownloadSource}
                         />
                     </li>
                 ))}

@@ -47,6 +47,11 @@
     transition: all 0.1s ease;
 }
 
+.gallery-card-view > .compressed-download-button {
+    position: absolute;
+    bottom: 60px;
+}
+
 .gallery-card-view > a:hover,
 .gallery-card-view > a:focus {
     text-decoration: underline;
