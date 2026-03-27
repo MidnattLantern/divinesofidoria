@@ -17,8 +17,8 @@ function App() {
     return (
         <>
             <button onClick={handleTogglePrimaryNavBar} id="togglePrimaryNavBarButton">menu</button>
-            <header id="primaryNavBar">
-                <nav className="phone-only-hidden" aria-label="Primary navigation bar">
+            <header id="primaryNavBar" className="phone-only-hidden">
+                <nav aria-label="Primary navigation bar">
                     <ul>
                         <li>
                             <NavLink to={"/"} end>Home</NavLink>
