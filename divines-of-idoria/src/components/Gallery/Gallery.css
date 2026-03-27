@@ -1,10 +1,31 @@
 .gallery-view {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: fit-content;
+}
+
+.go-back-button {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--black-transparent);
+    backdrop-filter: blur(1px);
+    border: 1px solid var(--white-transparent);
+    fill: var(--white);
+    padding: 10px;
+}
+
+.go-back-button:hover {
+    fill: var(--theme-transparent);
+    color: var(--theme-light);
+    cursor: pointer;
 }
 
 .gallery-view > h1 {
