@@ -4,10 +4,6 @@ import DownloadSymbolLossless from "../../../assets/sunbawn-assets/downloadable/
 import DownloadSymbolCompressed from "../../../assets/sunbawn-assets/downloadable/symbol-compressed.jpg";
 import PreviewSymbolCutout from "../../../assets/sunbawn-assets/preview/preview-symbol-cutout.webp";
 import DownloadSymbolCutout from "../../../assets/sunbawn-assets/downloadable/symbol-cutout.png";
-//import PreviewVectorSilhouette from "../../../assets/sunbawn-assets/preview/preview-symbol-vector-silhouette.webp";
-//import DownloadVectorSilhouette from "../../../assets/sunbawn-assets/downloadable/symbol-vector-silhouette.svg";
-//import PreviewVectorOutline from "../../../assets/sunbawn-assets/preview/preview-symbol-vector-outline.webp";
-//import DownloadVectorOutline from "../../../assets/sunbawn-assets/downloadable/symbol-vector-outline.svg";
 import { useEffect } from "react";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
@@ -26,22 +22,6 @@ const SunbawnSymbolItems = [
         downloadSource: DownloadSymbolCutout,
         useWideAspectRatio: true,
     }
-    /*
-    {
-        title: "Vector Silhouette",
-        previewSource: PreviewVectorSilhouette,
-        downloadSource: DownloadVectorSilhouette,
-        useWideAspectRatio: true,
-    }
-    */
-    /*
-    {
-        title: "Vector Outline",
-        previewSource: PreviewVectorOutline,
-        downloadSource: DownloadVectorOutline,
-        useWideAspectRatio: true,
-    }
-    */
 ]
 
 function DisplaySunbawnSymbolPage() {

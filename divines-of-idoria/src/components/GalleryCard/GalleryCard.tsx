@@ -1,6 +1,6 @@
 import "./GalleryCard.css";
 
-interface Props {
+interface IProps {
     title: string;
     previewSource: string;
     downloadSource: string;
@@ -8,7 +8,7 @@ interface Props {
     compressedDownloadSource?: string;
 };
 
-function GalleryCard({ title, previewSource, downloadSource, useWideAspect, compressedDownloadSource }: Props) {
+function GalleryCard({ title, previewSource, downloadSource, useWideAspect, compressedDownloadSource }: IProps) {
     return (
         <figure className={`${`gallery-card-view`} ${useWideAspect && `use-wide-aspect`}`}>
             <img src={previewSource} alt="" loading="lazy"/>

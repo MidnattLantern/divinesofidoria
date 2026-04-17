@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "./PooraatPortraitPage.css";
+import projectsDNA from "./projectsDNA.json";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewLossless from "../../../assets/pooraat-assets/preveiw/portrait-lossless-preview.webp";
@@ -8,6 +9,7 @@ import PreviewFramed from "../../../assets/pooraat-assets/preveiw/portrait-frame
 import DownloadFramed from "../../../assets/pooraat-assets/downloadable/portrait-framed.png";
 import PreviewCutout from "../../../assets/pooraat-assets/preveiw/portrait-cutout-preview.webp";
 import DownloadCutout from "../../../assets/pooraat-assets/downloadable/portrait-cutout.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const PooratPortraitItems = [
     {
@@ -33,7 +35,10 @@ function DisplayPooraatPortraitPage() {
     }, []);
 
     return (
-        <Gallery deity="Po'oraat" projectName="Portrait" items={PooratPortraitItems}/>
+        <>
+            <Gallery deity="Po'oraat" projectName="Portrait" items={PooratPortraitItems}/>
+            <ProjectsDNA projectName="Po'oraat portrait" projectsDNA={projectsDNA}/>
+        </>
     );
 }
 
