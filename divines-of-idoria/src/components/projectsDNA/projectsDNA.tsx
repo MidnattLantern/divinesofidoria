@@ -25,7 +25,7 @@ function ProjectsDNA({projectName, projectsDNA}: IProps) {
     return (
         <div className="projects-dna">
             <h2>{projectName}'s DNA</h2>
-            <p>Timelapse about the making of this project</p>
+            <p>Follow the timelapse about the making of this project</p>
             <ul>{itemsDNA}</ul>
         </div>
     )

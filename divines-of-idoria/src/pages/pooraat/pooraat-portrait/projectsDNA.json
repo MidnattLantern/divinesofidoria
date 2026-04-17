@@ -1,7 +1,77 @@
 [
     {
         "name": "Pose sketching",
-        "source": "projectsDNA/pose-sketching.webp",
+        "source": "projectsDNA/pooraat/pose-sketching.webp",
+        "description": "Me trying to get a feel for the pose and musculature through analogue paper and graphite"
+    },
+    {
+        "name": "Arms composition",
+        "source": "projectsDNA/pooraat/arms-composition.webp",
         "description": ""
+    },
+    {
+        "name": "Even wings (no person)",
+        "source": "projectsDNA/pooraat/even-wings-no-person.webp",
+        "description": "Sketching a 3-pair set of wings in an even pose"
+    },
+    {
+        "name": "Even wings",
+        "source": "projectsDNA/pooraat/even-wings.webp",
+        "description": "The same 3-pair of even wings, but with Po'oraat"
+    },
+    {
+        "name": "Wild wings (no person)",
+        "source": "projectsDNA/pooraat/wild-wings-no-person.webp",
+        "description": "Sketching a 3-pair set of wings in a wild pose"
+    },
+    {
+        "name": "Wild wings",
+        "source": "projectsDNA/pooraat/wild-wings.webp",
+        "description": "The same 3-pair of wild wings, but with Po'oraat"
+    },
+    {
+        "name": "Straight long hair",
+        "source": "projectsDNA/pooraat/straight-long.webp",
+        "description": "Alternative long straight hairstyle"
+    },
+    {
+        "name": "Straight short hair",
+        "source": "projectsDNA/pooraat/straight-short.webp",
+        "description": "Alternative short straight hairstyle"
+    },
+    {
+        "name": "Curly long hair",
+        "source": "projectsDNA/pooraat/curly-long.webp",
+        "description": "Alternative long curly hairstyle"
+    },
+    {
+        "name": "Curly short hair",
+        "source": "projectsDNA/pooraat/curly-short.webp",
+        "description": "The hairstyle we decided to move on with"
+    },
+    {
+        "name": "Sketch final draft",
+        "source": "projectsDNA/pooraat/sketch-final-draft.webp",
+        "description": ""
+    },
+    {
+        "name": "Apply base colors",
+        "source": "projectsDNA/pooraat/apply-base-colors.webp",
+        "description": ""
+    },
+    {
+        "name": "Add feathers and chains",
+        "source": "projectsDNA/pooraat/feathers-and-chains.webp",
+        "description": ""
+    },
+    {
+        "name": "Apply light effects",
+        "source": "projectsDNA/pooraat/light-effects.webp",
+        "description": ""
+    },
+    {
+        "name": "Finished result",
+        "source": "projectsDNA/pooraat/finished-result.webp",
+        "description": "Finished result"
     }
 ]
