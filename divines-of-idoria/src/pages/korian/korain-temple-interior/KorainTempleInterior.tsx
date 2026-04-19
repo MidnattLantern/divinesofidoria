@@ -1,9 +1,11 @@
 import { useEffect } from "react";
 import "./KorainTempleInterior.css";
+import projectsDNA from "./projectsDNA.json";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainTempleInteriorLossless from "../../../assets/korain-assets/preview/preview-temple-interior-lossless.webp";
 import DownloadKorainTempleInteriorLossless from "../../../assets/korain-assets/downloadable/temple-interior-lossless.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const KorainTempleInteriorItems = [
     {
@@ -20,7 +22,10 @@ function DisplayKorainTempleInterior() {
     }, []);
 
     return (
-        <Gallery deity="Korain" projectName="Temple Interior" items={KorainTempleInteriorItems}/>
+        <>
+           <Gallery deity="Korain" projectName="Temple Interior" items={KorainTempleInteriorItems}/>
+           <ProjectsDNA projectName="Korain temple interior" projectsDNA={projectsDNA}/>
+        </>
     );
 };
 

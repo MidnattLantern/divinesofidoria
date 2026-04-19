@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Window frames",
+        "source": "projectsDNA/korain/temple-interior/window-frames.webp",
+        "description": "A window and pillar are repeated, then each get a bone, creating a spine used later for bending a 180 curve"
+    },
+    {
+        "name": "Curving windows wall",
+        "source": "projectsDNA/korain/temple-interior/curving-window-walls.webp",
+        "description": "The windows and pillar are being curved using the spine"
+    },
+    {
+        "name": "Chair spindle spine",
+        "source": "projectsDNA/korain/temple-interior/chair-spindle-spine.webp",
+        "description": "The same spine technique is used for the spindles for a chair assest"
+    },
+    {
+        "name": "Bending chair spindles",
+        "source": "projectsDNA/korain/temple-interior/bending-chair-spindles.webp",
+        "description": "Using the spine, the spindles are bent"
+    },
+    {
+        "name": "Chair asset",
+        "source": "projectsDNA/korain/temple-interior/chair-asset.webp",
+        "description": ""
+    },
+    {
+        "name": "Fence row asset",
+        "source": "projectsDNA/korain/temple-interior/fence-row-asset.webp",
+        "description": "The fence also uses the spine technique"
+    }
+]
