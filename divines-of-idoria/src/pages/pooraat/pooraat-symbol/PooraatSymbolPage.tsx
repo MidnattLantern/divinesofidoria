@@ -3,13 +3,15 @@ import { useEffect } from "react";
 import Gallery from "../../../components/Gallery/Gallery";
 import PreviewFiltered from "../../../assets/pooraat-assets/preveiw/preview-filtered.webp";
 import DownloadFiltered from "../../../assets/pooraat-assets/downloadable/filtered.png";
+import DownloadCompressed from "../../../assets/pooraat-assets/downloadable/symbol-comporessed.jpg";
 import { Route, Routes } from "react-router";
 
 const PooraatSymbolItems = [
     {
         title: "Original",
         previewSource: PreviewFiltered,
-        downloadSource: DownloadFiltered
+        downloadSource: DownloadFiltered,
+        compressedDownloadSource: DownloadCompressed
     }
 ]
 

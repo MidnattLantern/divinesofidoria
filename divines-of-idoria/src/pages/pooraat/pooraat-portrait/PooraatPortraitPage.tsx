@@ -5,6 +5,7 @@ import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewLossless from "../../../assets/pooraat-assets/preveiw/portrait-lossless-preview.webp";
 import DownloadLossless from "../../../assets/pooraat-assets/downloadable/portrait-lossless.png";
+import DownloadCompressed from "../../../assets/pooraat-assets/downloadable/portrait-compressed.jpg";
 import PreviewFramed from "../../../assets/pooraat-assets/preveiw/portrait-framed-preview.webp";
 import DownloadFramed from "../../../assets/pooraat-assets/downloadable/portrait-framed.png";
 import PreviewCutout from "../../../assets/pooraat-assets/preveiw/portrait-cutout-preview.webp";
@@ -15,7 +16,8 @@ const PooratPortraitItems = [
     {
         title: "Original",
         previewSource: PreviewLossless,
-        downloadSource: DownloadLossless
+        downloadSource: DownloadLossless,
+        compressedDownloadSource: DownloadCompressed
     },
     {
         title: "Framed",
