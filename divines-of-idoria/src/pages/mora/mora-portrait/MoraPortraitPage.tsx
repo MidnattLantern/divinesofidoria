@@ -5,6 +5,7 @@ import Gallery from "../../../components/Gallery/Gallery";
 
 import PreviewPortraitLossless from "../../../assets/mora-assets/preview/preview-portrait-lossless.webp";
 import DownloadPortraitLossless from "../../../assets/mora-assets/downloadable/portrait-lossless.png";
+import DownloadPortraitCompressed from "../../../assets/mora-assets/downloadable/portrait-compressed.jpg";
 import PreviewPortraitLegacy from "../../../assets/mora-assets/preview/preview-portrait-legacy.webp";
 import DownloadPortraitLegacy from "../../../assets/mora-assets/downloadable/portrait-legacy.png";
 import PreviewPortraitSketch from "../../../assets/mora-assets/preview/preview-portrait-sketch.webp";
@@ -14,9 +15,10 @@ import DownloadPortraitSketchLegacy from "../../../assets/mora-assets/downloadab
 
 const MoraPortraitItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewPortraitLossless,
-        downloadSource: DownloadPortraitLossless
+        downloadSource: DownloadPortraitLossless,
+        compressedDownloadSource: DownloadPortraitCompressed
     },
     {
         title: "Legacy",

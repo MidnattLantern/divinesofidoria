@@ -13,7 +13,7 @@ import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const PooratPortraitItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewLossless,
         downloadSource: DownloadLossless
     },

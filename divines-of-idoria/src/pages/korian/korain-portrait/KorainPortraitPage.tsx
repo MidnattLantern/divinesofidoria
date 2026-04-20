@@ -4,21 +4,14 @@ import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainPortraitLossless from "../../../assets/korain-assets/preview/preview-portrait-lossless.webp";
 import DownloadKorainPortraitLossless from "../../../assets/korain-assets/downloadable/portrait-lossless.png";
-import PreviewKorainPortraitNoFilter from "../../../assets/korain-assets/preview/preview-portrait-no-filter.webp";
-import DownloadKorainPortraitNoFilter from "../../../assets/korain-assets/downloadable/portrait-no-filter.png";
 import PreviewKorainPortraitNoPaint from "../../../assets/korain-assets/preview/preview-portrait-no-paint.webp";
 import DownloadKorainPortraitNoPaint from "../../../assets/korain-assets/downloadable/portrait-no-paint.png";
 
 const KorainPortraitItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewKorainPortraitLossless,
         downloadSource: DownloadKorainPortraitLossless
-    },
-    {
-        title: "No Filter",
-        previewSource: PreviewKorainPortraitNoFilter,
-        downloadSource: DownloadKorainPortraitNoFilter
     },
     {
         title: "No Paint",

@@ -7,7 +7,7 @@ import DownloadKorainSymbolLossless from "../../../assets/korain-assets/download
 
 const KorainSymbolItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewKorainSymbolLossless,
         downloadSource: DownloadKorainSymbolLossless
     }

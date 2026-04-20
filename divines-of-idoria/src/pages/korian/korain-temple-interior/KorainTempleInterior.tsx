@@ -9,7 +9,7 @@ import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const KorainTempleInteriorItems = [
     {
-        title: "Temple Interior",
+        title: "Original",
         previewSource: PreviewKorainTempleInteriorLossless,
         downloadSource: DownloadKorainTempleInteriorLossless,
         useWideAspectRatio: true

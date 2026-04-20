@@ -9,7 +9,7 @@ import DownloadKorainShrineEmpty from "../../../assets/korain-assets/downloadabl
 
 const KorainShrineItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewKorainShrineLossless,
         downloadSource: DownloadKorainShrineLossless
     },

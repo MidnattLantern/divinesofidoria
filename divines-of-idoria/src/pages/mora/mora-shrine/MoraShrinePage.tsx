@@ -9,9 +9,9 @@ import DownloadMoraShrineEmpty from "../../../assets/mora-assets/downloadable/sh
 
 const MoraShrineItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewMoraShrineLossless,
-        downloadSource: DownloadMoraShrineLossless,
+        downloadSource: DownloadMoraShrineLossless
     },
     {
         title: "Empty",

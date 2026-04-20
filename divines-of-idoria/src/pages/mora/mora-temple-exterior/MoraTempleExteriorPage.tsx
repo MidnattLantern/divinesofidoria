@@ -4,13 +4,15 @@ import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewMoraTempleExteriorLossless from "../../../assets/mora-assets/preview/preview-temple-exterior.webp";
 import DownloadMoraTempleExteriorLossless from "../../../assets/mora-assets/downloadable/temple-exterior.png";
+import DownloadMoraTempleExteriorCompressed from "../../../assets/mora-assets/downloadable/temple-exterior-compressed.jpg";
 
 const MoraTempleExteriorItems = [
     {
-        title: "Lossless",
+        title: "Original",
         previewSource: PreviewMoraTempleExteriorLossless,
         downloadSource: DownloadMoraTempleExteriorLossless,
-        useWideAspectRatio: true
+        useWideAspectRatio: true,
+        compressedDownloadSource: DownloadMoraTempleExteriorCompressed
     }
 ]
 

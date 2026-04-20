@@ -14,7 +14,7 @@ function GalleryCard({ title, previewSource, downloadSource, useWideAspect, comp
             <img src={previewSource} alt="" loading="lazy"/>
             <figcaption>{title}</figcaption>
             <a href={downloadSource} download>{`Download ${title} Lossless`}</a>
-            {compressedDownloadSource && <a href={downloadSource} download className={"compressed-download-button"}>{`Download ${title} Compressed (1 MB)`}</a>}
+            {compressedDownloadSource && <a href={compressedDownloadSource} download className={"compressed-download-button"}>{`Download ${title} Compressed (1 MB)`}</a>}
         </figure>
     );
 };

@@ -6,15 +6,8 @@ import DownloadFiltered from "../../../assets/pooraat-assets/downloadable/filter
 import { Route, Routes } from "react-router";
 
 const PooraatSymbolItems = [
-    /*
     {
-        title: "Lossless",
-        previewSource: PreviewLossless,
-        downloadSource: DownloadLossless
-    }
-    */
-    {
-        title: "Symbol",
+        title: "Original",
         previewSource: PreviewFiltered,
         downloadSource: DownloadFiltered
     }
