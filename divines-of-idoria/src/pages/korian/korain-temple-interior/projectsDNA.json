@@ -2,22 +2,22 @@
     {
         "name": "Window frames",
         "source": "projectsDNA/korain/temple-interior/window-frames.webp",
-        "description": "A window and pillar are repeated, then each get a bone, creating a spine used later for bending a 180 curve"
+        "description": "A window and pillar are repeated, then each get a bone, creating a spine used later for bending a 180 curve."
     },
     {
         "name": "Curving windows wall",
         "source": "projectsDNA/korain/temple-interior/curving-window-walls.webp",
-        "description": "The windows and pillar are being curved using the spine"
+        "description": "The windows and pillar are being curved using the spine."
     },
     {
         "name": "Chair spindle spine",
         "source": "projectsDNA/korain/temple-interior/chair-spindle-spine.webp",
-        "description": "The same spine technique is used for the spindles for a chair assest"
+        "description": "The same spine technique is used for the spindles for a chair assest."
     },
     {
         "name": "Bending chair spindles",
         "source": "projectsDNA/korain/temple-interior/bending-chair-spindles.webp",
-        "description": "Using the spine, the spindles are bent"
+        "description": "Using the spine, the spindles are bent."
     },
     {
         "name": "Chair asset",
@@ -25,8 +25,63 @@
         "description": ""
     },
     {
+        "name": "Chair testing spine",
+        "source": "projectsDNA/korain/temple-interior/chairs-spine.webp",
+        "description": ""
+    },
+    {
+        "name": "Chairs rendition",
+        "source": "projectsDNA/korain/temple-interior/crowd-chairs-rendition.webp",
+        "description": ""
+    },
+    {
         "name": "Fence row asset",
         "source": "projectsDNA/korain/temple-interior/fence-row-asset.webp",
-        "description": "The fence also uses the spine technique"
+        "description": "The fence also uses the spine technique."
+    },
+    {
+        "name": "Fence rendition",
+        "source": "projectsDNA/korain/temple-interior/fence-rendition.webp",
+        "description": ""
+    },
+    {
+        "name": "Room Bird-view",
+        "source": "projectsDNA/korain/temple-interior/room-birdview.webp",
+        "description": ""
+    },
+    {
+        "name": "Room rendition",
+        "source": "projectsDNA/korain/temple-interior/room-rendition.webp",
+        "description": ""
+    },
+    {
+        "name": "Grayscale shift",
+        "source": "projectsDNA/korain/temple-interior/grayscale-shift.webp",
+        "description": ""
+    },
+    {
+        "name": "Chairs tracing",
+        "source": "projectsDNA/korain/temple-interior/trace-chairs.webp",
+        "description": ""
+    },
+    {
+        "name": "T racing ray-area",
+        "source": "projectsDNA/korain/temple-interior/tracing-ray-area.webp",
+        "description": "Area making up the sun-beams are traced in Clip Studio Paint. In this screenshot, the area is orange, when Add(glow) is applied, it will shift to a bright yellow glow."
+    },
+    {
+        "name": "Marble materials",
+        "source": "projectsDNA/korain/temple-interior/marble-material.webp",
+        "description": ""
+    },
+    {
+        "name": "No lighting effects",
+        "source": "projectsDNA/korain/temple-interior/interior-no-effects.webp",
+        "description": "Before applying lighting effects and level corrections."
+    },
+    {
+        "name": "Finished",
+        "source": "projectsDNA/korain/temple-interior/interior-finished.webp",
+        "description": ""
     }
 ]
