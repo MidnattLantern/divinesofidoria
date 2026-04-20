@@ -7,6 +7,8 @@ import DownloadSymbolCutout from "../../../assets/sunbawn-assets/downloadable/sy
 import { useEffect } from "react";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
+import projectsDNAData from "./projectsDNA.json";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const SunbawnSymbolItems = [
     {
@@ -30,7 +32,10 @@ function DisplaySunbawnSymbolPage() {
     }, []);
 
     return (
-        <Gallery deity="Sunbawn" projectName="Symbol" items={SunbawnSymbolItems}/>
+        <>
+            <Gallery deity="Sunbawn" projectName="Symbol" items={SunbawnSymbolItems}/>
+            <ProjectsDNA projectName="Symbol" projectsDNA={projectsDNAData}/>
+        </>
     );
 }
 

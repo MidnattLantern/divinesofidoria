@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Geometric cloud sketch",
+        "source": "projectsDNA/sunbawn/symbol/cloud-sketch-geometric.webp",
+        "description": ""
+    },
+    {
+        "name": "Geometric vector measurements",
+        "source": "projectsDNA/sunbawn/symbol/geometric-vector-measurement.webp",
+        "description": "Pixel sketch is traced above with vector shapes, while caring for consistent relations and proportions."
+    },
+    {
+        "name": "Vector selected paths",
+        "source": "projectsDNA/sunbawn/symbol/vector-selected-paths.webp",
+        "description": "Selected paths are preserved, thickened and unified as one filled vector shape."
+    },
+    {
+        "name": "Final vector shapes",
+        "source": "projectsDNA/sunbawn/symbol/final-vector-shapes.webp",
+        "description": "Vector SVG assets that can be used for 3D moddeling. Red makes up the filling, black makes up the frames."
+    },
+    {
+        "name": "Vector (SVG) to 3D-mesh",
+        "source": "projectsDNA/sunbawn/symbol/vector-to-3d.webp",
+        "description": "The frame got a solidify modifier"
+    },
+    {
+        "name": "3D-rendition",
+        "source": "projectsDNA/sunbawn/symbol/rendition-3d.webp",
+        "description": ""
+    },
+    {
+        "name": "Variations",
+        "source": "projectsDNA/sunbawn/symbol/variations.webp",
+        "description": "Varying materialistic options."
+    },
+    {
+        "name": "Finished",
+        "source": "projectsDNA/sunbawn/symbol/finished.webp",
+        "description": ""
+    }
+]
