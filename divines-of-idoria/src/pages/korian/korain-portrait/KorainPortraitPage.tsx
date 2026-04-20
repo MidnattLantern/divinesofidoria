@@ -4,6 +4,7 @@ import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainPortraitLossless from "../../../assets/korain-assets/preview/preview-portrait-lossless.webp";
 import DownloadKorainPortraitLossless from "../../../assets/korain-assets/downloadable/portrait-lossless.png";
+import DownloadKorainPortraitCompressed from "../../../assets/korain-assets/downloadable/portrait-compressed.jpg";
 import PreviewKorainPortraitNoPaint from "../../../assets/korain-assets/preview/preview-portrait-no-paint.webp";
 import DownloadKorainPortraitNoPaint from "../../../assets/korain-assets/downloadable/portrait-no-paint.png";
 
@@ -11,7 +12,8 @@ const KorainPortraitItems = [
     {
         title: "Original",
         previewSource: PreviewKorainPortraitLossless,
-        downloadSource: DownloadKorainPortraitLossless
+        downloadSource: DownloadKorainPortraitLossless,
+        compressedDownloadSource: DownloadKorainPortraitCompressed
     },
     {
         title: "No Paint",

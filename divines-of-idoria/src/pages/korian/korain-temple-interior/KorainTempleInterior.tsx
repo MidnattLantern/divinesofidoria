@@ -5,6 +5,7 @@ import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainTempleInteriorLossless from "../../../assets/korain-assets/preview/preview-temple-interior-lossless.webp";
 import DownloadKorainTempleInteriorLossless from "../../../assets/korain-assets/downloadable/temple-interior-lossless.png";
+import DownloadKorainTempleInteriorCompressed from "../../../assets/korain-assets/downloadable/temple-interior-compressed.jpg";
 import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const KorainTempleInteriorItems = [
@@ -12,7 +13,8 @@ const KorainTempleInteriorItems = [
         title: "Original",
         previewSource: PreviewKorainTempleInteriorLossless,
         downloadSource: DownloadKorainTempleInteriorLossless,
-        useWideAspectRatio: true
+        useWideAspectRatio: true,
+        compressedDownloadSource: DownloadKorainTempleInteriorCompressed
     }
 ];
 

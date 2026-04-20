@@ -4,12 +4,14 @@ import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainSymbolLossless from "../../../assets/korain-assets/preview/preview-symbol-lossless.webp";
 import DownloadKorainSymbolLossless from "../../../assets/korain-assets/downloadable/symbol-lossless.png"
+import DownloadKorainSymbolCompressed from "../../../assets/korain-assets/downloadable/symbol-compressed.jpg";
 
 const KorainSymbolItems = [
     {
         title: "Original",
         previewSource: PreviewKorainSymbolLossless,
-        downloadSource: DownloadKorainSymbolLossless
+        downloadSource: DownloadKorainSymbolLossless,
+        compressedDownloadSource: DownloadKorainSymbolCompressed
     }
 ];
 

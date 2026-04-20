@@ -3,13 +3,15 @@ import Gallery from "../../../components/Gallery/Gallery";
 import "./KorainTempleExterior.css";
 import PreviewKorainTempleExteriorLossless from "../../../assets/korain-assets/preview/preview-temple-exterior-lossless.webp";
 import DownloadKorainTempleExteriorLossless from "../../../assets/korain-assets/downloadable/temple-exterior-lossless.png";
+import DownloadKorainTempleExteriorCompressed from "../../../assets/korain-assets/downloadable/temple-exterior-compressed.jpg";
 
 const KorainTempleExteriorItems = [
     {
         title: "Original",
         previewSource: PreviewKorainTempleExteriorLossless,
         downloadSource: DownloadKorainTempleExteriorLossless,
-        useWideAspectRatio: true
+        useWideAspectRatio: true,
+        compressedDownloadSource: DownloadKorainTempleExteriorCompressed
     }
 ];
 
