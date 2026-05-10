@@ -1,0 +1,43 @@
+import PreviewShrine from "../../../assets/sunbawn-assets/preview/preview-shrine.webp";
+import DownloadShrineLossless from "../../../assets/sunbawn-assets/downloadable/shrine.png";
+import PreviewShrineNoVines from "../../../assets/sunbawn-assets/preview/preview-shrine-no-vines.webp";
+import DownloadShrineNoVinesLossless from "../../../assets/sunbawn-assets/downloadable/shrine-no-vines.png";
+import { useEffect } from "react";
+import Gallery from "../../../components/Gallery/Gallery";
+import { Route, Routes } from "react-router";
+
+const SunbawnShrineItems = [
+    {
+        title: "Original",
+        previewSource: PreviewShrine,
+        downloadSource: DownloadShrineLossless
+    },
+    {
+        title: "No vines",
+        previewSource: PreviewShrineNoVines,
+        downloadSource: DownloadShrineNoVinesLossless
+    }
+]
+
+function DisplaySunbawnShrinePage() {
+    useEffect(() => {
+        document.title = "Idoria | Sunbawn | Shrine";
+    }, []);
+
+    return (
+        <>
+            <Gallery deity="Sunbawn" projectName="Shrine" items={SunbawnShrineItems}/>
+            {/* Projects DNA */}
+        </>
+    );
+}
+
+function SunbawnShrinePage() {
+    return (
+        <Routes>
+            <Route index element={<DisplaySunbawnShrinePage/>}/>
+        </Routes>
+    )
+}
+
+export default SunbawnShrinePage
