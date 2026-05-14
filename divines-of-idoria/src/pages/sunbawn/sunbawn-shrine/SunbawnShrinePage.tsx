@@ -5,6 +5,8 @@ import DownloadShrineNoVinesLossless from "../../../assets/sunbawn-assets/downlo
 import { useEffect } from "react";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
+import projectsDNA from "./projectsDNA.json";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 
 const SunbawnShrineItems = [
     {
@@ -27,7 +29,7 @@ function DisplaySunbawnShrinePage() {
     return (
         <>
             <Gallery deity="Sunbawn" projectName="Shrine" items={SunbawnShrineItems}/>
-            {/* Projects DNA */}
+            <ProjectsDNA projectName="Sunbawn shrine" projectsDNA={projectsDNA}/>
         </>
     );
 }

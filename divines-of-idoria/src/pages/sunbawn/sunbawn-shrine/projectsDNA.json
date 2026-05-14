@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Shrine options",
+        "source": "projectsDNA/sunbawn/shrine/rendition-options.webp",
+        "description": "Deciding on whether to use a large or small boat or symbol for the weathervane"
+    },
+    {
+        "name": "Column fail 1",
+        "source": "projectsDNA/sunbawn/shrine/column-fail-1.webp",
+        "description": "I tried array:ing geometrical shapes in a circle, but this was a messy failure."
+    },
+    {
+        "name": "Column fail 2",
+        "source": "projectsDNA/sunbawn/shrine/column-fail-2.webp",
+        "description": "I tried Blender's sculpting, but this was another failure. The column felt squishy and soft due to the soft carvings"
+    },
+    {
+        "name": "Raster sketching 1",
+        "source": "projectsDNA/sunbawn/shrine/raster-sketching-1.webp",
+        "description": "Improvising cloud like pattern, letting instinct and random chance decide the flow. This stage was incredibly meditatiave"
+    },
+    {
+        "name": "Raster sketching 2",
+        "source": "projectsDNA/sunbawn/shrine/raster-sketching-2.webp",
+        "description": ""
+    },
+    {
+        "name": "Raster pattern 1",
+        "source": "projectsDNA/sunbawn/shrine/raster-pattern-1.webp",
+        "description": "Warping the pattern to give it a cylinder-like appearance"
+    },
+    {
+        "name": "Meshing pattern to rendition 1",
+        "source": "projectsDNA/sunbawn/shrine/meshing-pattern-to-rendition-1.webp",
+        "description": "This was a miss. It reminded me of putting on patterned stockings"
+    },
+    {
+        "name": "Meshing pattern to rendition 2",
+        "source": "projectsDNA/sunbawn/shrine/meshing-pattern-to-rendition-2.webp",
+        "description": ""
+    },
+    {
+        "name": "Meshing pattern to rendition 3",
+        "source": "projectsDNA/sunbawn/shrine/meshing-pattern-to-rendition-3.webp",
+        "description": ""
+    },
+    {
+        "name": "Blender displacement",
+        "source":"projectsDNA/sunbawn/shrine/blender-displacement.webp",
+        "description": "I discovered Blender's displacement feature. This technique would be proven useful"
+    },
+    {
+        "name": "Cloudy pattern 2",
+        "source": "projectsDNA/sunbawn/shrine/cloudy-pattern-2.webp",
+        "description": "Updated raster pattern, after getting more experiences, I wanted to do better. The red area represent what Blender will make use of. I saved time and energy not shading unused area by Blender"
+    },
+    {
+        "name": "Power of displacement",
+        "source": "projectsDNA/sunbawn/shrine/power-of-displacement.webp",
+        "description": "Demonstrating the changing appearance when you displace from a lot to a little"
+    },
+    {
+        "name": "Render new",
+        "source": "projectsDNA/sunbawn/shrine/render-new.webp",
+        "description": "Approved rendition"
+    },
+    {
+        "name": "Render smoothening",
+        "source": "projectsDNA/sunbawn/shrine/render-smoothening.webp",
+        "description": "Manually painting over the jagged surfaces in Clip Studio Paint, reclaiming a smooth texture"
+    },
+    {
+        "name": "Render smoothened",
+        "source": "projectsDNA/sunbawn/shrine/render-smoothened.webp",
+        "description": ""
+    },
+    {
+        "name": "Texture masking",
+        "source": "projectsDNA/sunbawn/shrine/texture-masking.webp",
+        "description": "Applying a texture material and masking out desired areas"
+    },
+    {
+        "name": "Finished result",
+        "source": "projectsDNA/sunbawn/shrine/completed.webp",
+        "description": "Finished result (without vines), the shadows reveal themselves as the texture materials blend options are set to overlay or multiply"
+    }
+]
