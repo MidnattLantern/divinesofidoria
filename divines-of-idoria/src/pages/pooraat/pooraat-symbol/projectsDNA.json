@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Symbol sketch 1",
+        "source": "projectsDNA/pooraat/symbol/symbol-sketch-1.webp",
+        "description": "First wave of sketches"
+    },
+    {
+        "name": "Symbol sketch 2",
+        "source": "projectsDNA/pooraat/symbol/symbol-sketch-2.webp",
+        "description": "Second wave of sketches"
+    },
+    {
+        "name": "Frames",
+        "source": "projectsDNA/pooraat/symbol/frames.webp",
+        "description": ""
+    },
+    {
+        "name": "No blending",
+        "source": "projectsDNA/pooraat/symbol/no-blending.webp",
+        "description": "Before blending options, the glowing colors are actually a shade of brown-orange"
+    },
+    {
+        "name": "Blending",
+        "source": "projectsDNA/pooraat/symbol/blending.webp",
+        "description": "With blending options, such as Add (glow) applied"
+    },
+    {
+        "name": "Finished",
+        "source": "projectsDNA/pooraat/symbol/finished.webp",
+        "description": ""
+    }
+]
