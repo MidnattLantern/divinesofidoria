@@ -3,6 +3,7 @@ import "./sunbawnPage.css";
 import { NavLink, Route, Routes } from "react-router";
 import SunbawnSymbolPage from "./sunbawn-symbol/SunbawnSymbolPage";
 import SunbawnShrinePage from "./sunbawn-shrine/SunbawnShrinePage";
+import SunbawnTemplePage from "./sunbawn-temple/SunbawnTemplePage";
 
 function DisplaySunbawnPage() {
     useEffect(() => {
@@ -26,7 +27,7 @@ function SunbawnPage() {
             <Route index element={<DisplaySunbawnPage/>}/>
             <Route path="symbol" element={<SunbawnSymbolPage/>}/>
             <Route path="portrait" element={<h2>Portrait</h2>}/>
-            <Route path="temple" element={<h2>Temple</h2>}/>
+            <Route path="temple" element={<SunbawnTemplePage/>}/>
             <Route path="shrine" element={<SunbawnShrinePage/>}/>
         </Routes>
     )

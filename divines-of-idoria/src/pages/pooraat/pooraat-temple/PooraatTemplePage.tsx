@@ -14,7 +14,7 @@ const PooraatTempleItems = [
         useWideAspectRatio: true,
         compressedDownloadSource: Download1MB
     }
-]
+];
 
 function DisplayPooraatTemplePage() {
     useEffect(() => {
@@ -24,7 +24,7 @@ function DisplayPooraatTemplePage() {
     return (
         <Gallery deity="Po'oraat" projectName="Temple" items={PooraatTempleItems}/>
     );
-}
+};
 
 function PooraatTemplePage() {
     return (
