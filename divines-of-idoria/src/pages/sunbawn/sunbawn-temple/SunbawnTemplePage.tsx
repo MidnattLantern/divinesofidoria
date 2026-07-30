@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router";
 import Preview from "../../../assets/sunbawn-assets/preview/preview-temple.webp";
 import DownloadLossless from "../../../assets/sunbawn-assets/downloadable/temple.png";
 import Download1MB from "../../../assets/sunbawn-assets/downloadable/temple-compressed.jpg";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import projectsDNAData from "./projectsDNA.json";
 
 const SunbawnTempleItems = [
     {
@@ -21,7 +23,10 @@ function DisplaySunbawnTemplePage() {
     }, []);
 
     return (
-        <Gallery deity="Sunbawn" projectName="Temple" items={SunbawnTempleItems}/>
+        <>
+            <Gallery deity="Sunbawn" projectName="Temple" items={SunbawnTempleItems}/>
+            <ProjectsDNA projectName="Temple" projectsDNA={projectsDNAData}/>
+        </>
     );
 };
 

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Pose thumbnails",
+        "source": "projectsDNA/sunbawn/portrait/pose-thumbnails.webp",
+        "description": "Figuring out which angle to bet"
+    },
+    {
+        "name": "Pose thumbnails",
+        "source": "projectsDNA/sunbawn/portrait/arm-poses-seperated.webp",
+        "description": "Demonstrating the four pairs of arms as seperated sets"
+    },
+    {
+        "name": "Model",
+        "source": "projectsDNA/sunbawn/portrait/model.webp",
+        "description": "Drawing the model before applying armor"
+    },
+    {
+        "name": "Tornado first draft",
+        "source": "projectsDNA/sunbawn/portrait/tornado-first-draft.webp",
+        "description": "First draft, before the revision"
+    },
+    {
+        "name": "Tornado revised",
+        "source": "projectsDNA/sunbawn/portrait/tornados-revised.webp",
+        "description": "Tornados, final version"
+    },
+    {
+        "name": "Portrait foundation",
+        "source": "projectsDNA/sunbawn/portrait/portrait-foundation.webp",
+        "description": "Also includes linework"
+    },
+    {
+        "name": "Paint base",
+        "source": "projectsDNA/sunbawn/portrait/paint-base.webp",
+        "description": "Applying paint, establishing masking, making shading and lighting convenient"
+    },
+    {
+        "name": "Shading and sky",
+        "source": "projectsDNA/sunbawn/portrait/shading-and-sky.webp",
+        "description": "Without the items"
+    },
+    {
+        "name": "Complete",
+        "source": "projectsDNA/sunbawn/portrait/complete.webp",
+        "description": ""
+    }
+]

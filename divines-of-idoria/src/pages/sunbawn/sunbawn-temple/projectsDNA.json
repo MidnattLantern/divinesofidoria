@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Thumbnails",
+        "source": "projectsDNA/sunbawn/temple/thumbnails.webp",
+        "description": "Figuring out what the setting should look like"
+    },
+    {
+        "name": "Windmill model angles",
+        "source": "projectsDNA/sunbawn/temple/windmill-model-angles.webp",
+        "description": ""
+    },
+    {
+        "name": "Placement",
+        "source": "projectsDNA/sunbawn/temple/placement.webp",
+        "description": ""
+    },
+    {
+        "name": "Enviroment shading",
+        "source": "projectsDNA/sunbawn/temple/enviroment-shading.webp",
+        "description": ""
+    },
+    {
+        "name": "Windmill shading",
+        "source": "projectsDNA/sunbawn/temple/windmill-shading.webp",
+        "description": ""
+    },
+    {
+        "name": "Result",
+        "source": "projectsDNA/sunbawn/temple/result.webp",
+        "description": ""
+    }
+]
