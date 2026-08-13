@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Ten hands",
+        "source": "projectsDNA/korain/portrait/ten-hands.webp",
+        "description": ""
+    },
+    {
+        "name": "Final sketch (no tablet)",
+        "source": "projectsDNA/korain/portrait/final-sketch-notablet.webp",
+        "description": ""
+    },
+    {
+        "name": "Color splash",
+        "source": "projectsDNA/korain/portrait/color-splash.webp",
+        "description": "Giving a rough idea regarding the colors and composition."
+    },
+    {
+        "name": "Teal orange hair",
+        "source": "projectsDNA/korain/portrait/teal-orange-hair.webp",
+        "description": "Applying a color gradient referencing that of copper where the outmost hairstrands are more teal, as they've been exposed for a longer time."
+    },
+    {
+        "name": "Finished (no filter)",
+        "source": "projectsDNA/korain/portrait/preview-portrait-no-filter.webp",
+        "description": ""
+    }
+]

@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "./KorainPortraitPage.css";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainPortraitLossless from "../../../assets/korain-assets/preview/preview-portrait-lossless.webp";
@@ -7,6 +6,8 @@ import DownloadKorainPortraitLossless from "../../../assets/korain-assets/downlo
 import DownloadKorainPortraitCompressed from "../../../assets/korain-assets/downloadable/portrait-compressed.jpg";
 import PreviewKorainPortraitNoPaint from "../../../assets/korain-assets/preview/preview-portrait-no-paint.webp";
 import DownloadKorainPortraitNoPaint from "../../../assets/korain-assets/downloadable/portrait-no-paint.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const KorainPortraitItems = [
     {
@@ -28,7 +29,10 @@ function DisplayKorainPortraitPage() {
     }, []);
 
     return (
-        <Gallery deity="Korain" projectName="Portrait" items={KorainPortraitItems}/>
+        <>
+            <Gallery deity="Korain" projectName="Portrait" items={KorainPortraitItems}/>
+            <ProjectsDNA projectName="Korain Portrait" projectsDNA={ProjectsDNAData}/>
+        </>
     );
 };
 
