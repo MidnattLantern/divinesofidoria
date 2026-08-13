@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import "./MoraTempleExteriorPage.css";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewMoraTempleExteriorLossless from "../../../assets/mora-assets/preview/preview-temple-exterior.webp";
 import DownloadMoraTempleExteriorLossless from "../../../assets/mora-assets/downloadable/temple-exterior.png";
 import DownloadMoraTempleExteriorCompressed from "../../../assets/mora-assets/downloadable/temple-exterior-compressed.jpg";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const MoraTempleExteriorItems = [
     {
@@ -22,7 +23,10 @@ function DisplayMoraTempleExteriorPage() {
     }, []);
 
     return (
-        <Gallery deity="Mora" projectName="Temple Exterior" items={MoraTempleExteriorItems}/>
+        <>
+            <Gallery deity="Mora" projectName="Temple Exterior" items={MoraTempleExteriorItems}/>
+            <ProjectsDNA projectName="More Temple Exterior" projectsDNA={ProjectsDNAData}/>
+        </>
     );
 };
 

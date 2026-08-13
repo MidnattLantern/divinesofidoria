@@ -1,0 +1,32 @@
+[
+    {
+        "name": "POV screenshot outside",
+        "source": "projectsDNA/mora/temple-exterior/pov-screenshot-outside.webp",
+        "description": "Screenshot/ rendition of the temple from the 3D mdoel."
+    },
+    {
+        "name": "Establish layers",
+        "source": "projectsDNA/mora/temple-exterior/establish-layers.webp",
+        "description": "The 3D rendition is traced to layers inside the raster art software CSP."
+    },
+    {
+        "name": "Level shift",
+        "source": "projectsDNA/mora/temple-exterior/level-shift.webp",
+        "description": "Escaping the grayscale with levels supporting the transition to colors"
+    },
+    {
+        "name": "Added paint",
+        "source": "projectsDNA/mora/temple-exterior/added-paint.webp",
+        "description": "Exterior now in colors."
+    },
+    {
+        "name": "Added particles",
+        "source": "projectsDNA/mora/temple-exterior/added-particles.webp",
+        "description": "Bringing more life with flowers and vines."
+    },
+    {
+        "name": "Final",
+        "source": "projectsDNA/mora/temple-exterior/final.webp",
+        "description": "Final touches for the atmosphere."
+    }
+]
