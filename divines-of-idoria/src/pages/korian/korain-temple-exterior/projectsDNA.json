@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Architecture",
+        "source": "projectsDNA/korain/temple-exterior/architecture.webp",
+        "description": "3D rough rendition over the composition."
+    },
+    {
+        "name": "Final 3D render",
+        "source": "projectsDNA/korain/temple-exterior/final-3d-render.webp",
+        "description": "The 3D moddeling is done and will be imported to the raster art software CSP."
+    },
+    {
+        "name": "Before After",
+        "source": "projectsDNA/korain/temple-exterior/before-after.webp",
+        "description": "Comparing befor and after applying texture from the raster software."
+    },
+    {
+        "name": "Unsanitized",
+        "source": "projectsDNA/korain/temple-exterior/unsanitized.webp",
+        "description": ""
+    },
+    {
+        "name": "Final",
+        "source": "projectsDNA/korain/temple-exterior/final.webp",
+        "description": ""
+    }
+]
