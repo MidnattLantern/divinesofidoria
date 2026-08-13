@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import "./KorainSymbolPage.css";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainSymbolLossless from "../../../assets/korain-assets/preview/preview-symbol-lossless.webp";
 import DownloadKorainSymbolLossless from "../../../assets/korain-assets/downloadable/symbol-lossless.png"
 import DownloadKorainSymbolCompressed from "../../../assets/korain-assets/downloadable/symbol-compressed.jpg";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "././projectsDNA.json";
 
 const KorainSymbolItems = [
     {
@@ -21,7 +22,10 @@ function DisplayKorainSymbolPage() {
     }, []);
 
     return (
-        <Gallery deity="Korain" projectName="Symbol" items={KorainSymbolItems}/>
+        <>
+            <Gallery deity="Korain" projectName="Symbol" items={KorainSymbolItems}/>
+            <ProjectsDNA projectName="Korain Symbol" projectsDNA={ProjectsDNAData}/>
+        </>
     )
 };
 

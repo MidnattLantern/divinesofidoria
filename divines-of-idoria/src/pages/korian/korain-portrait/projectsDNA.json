@@ -5,6 +5,11 @@
         "description": ""
     },
     {
+        "name": "Hair sketch",
+        "source": "projectsDNA/korain/portrait/hair-sketch.webp",
+        "description": "Different hairstyles ranging from short to long"
+    },
+    {
         "name": "Final sketch (no tablet)",
         "source": "projectsDNA/korain/portrait/final-sketch-notablet.webp",
         "description": ""

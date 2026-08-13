@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Wings designs",
+        "source": "projectsDNA/korain/symbol/wings.webp",
+        "description": "Sketching different ideas for the wings."
+    },
+    {
+        "name": "Pillar designs",
+        "source": "projectsDNA/korain/symbol/pillars.webp",
+        "description": "Sketching different ideas for the pillar."
+    },
+    {
+        "name": "Cups designs",
+        "source": "projectsDNA/korain/symbol/cups.webp",
+        "description": "Sketching different ideas for the cups."
+    },
+    {
+        "name": "Final design (guidelines)",
+        "source": "projectsDNA/korain/symbol/final-design-guidelines.webp",
+        "description": "Final raster sketch, the red marks represent the consideration to proportions."
+    },
+    {
+        "name": "Sketch to 3D",
+        "source": "projectsDNA/korain/symbol/sketch-to-3d.webp",
+        "description": "Raster sketch is traced and converted to 3D."
+    },
+    {
+        "name": "3D components",
+        "source": "projectsDNA/korain/symbol/3d-components.webp",
+        "description": "The 3D model's components demonstrated by seperating them on an axis."
+    },
+    {
+        "name": "3D final render",
+        "source": "projectsDNA/korain/symbol/3d-final-render.webp",
+        "description": "The raster software will use this renditions shadows, by multiplying it over the paint."
+    },
+    {
+        "name": "3D multiply",
+        "source": "projectsDNA/korain/symbol/3d-multiply.webp",
+        "description": "Paint and texture are applied in the raster software, with the 3D rendition set as a multiply overlayer."
+    },
+    {
+        "name": "No shine",
+        "source": "projectsDNA/korain/symbol/no-shine.webp",
+        "description": ""
+    },
+    {
+        "name": "Finished",
+        "source": "projectsDNA/korain/symbol/finished.webp",
+        "description": ""
+    }
+]
