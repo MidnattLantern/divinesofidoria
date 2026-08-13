@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Birdseye view",
+        "source": "projectsDNA/mora/temple-interior/birdseye-view.webp",
+        "description": "Birdseye view for the layout of the temple done in Blender."
+    },
+    {
+        "name": "Final model",
+        "source": "projectsDNA/mora/temple-interior/final-model.webp",
+        "description": "Temple's final model done in Blender."
+    },
+    {
+        "name": "POV Screenshot inside",
+        "source": "projectsDNA/mora/temple-interior/pov-screenshot-inside.webp",
+        "description": "Screenshot/ rendition of the view from inside."
+    },
+    {
+        "name": "Establish layers",
+        "source": "projectsDNA/mora/temple-interior/establish-layers.webp",
+        "description": "The rendition is traced to layers in the raster art software CSP."
+    },
+    {
+        "name": "Light values",
+        "source": "projectsDNA/mora/temple-interior/light-values.webp",
+        "description": ""
+    },
+    {
+        "name": "Final",
+        "source": "projectsDNA/mora/temple-interior/final.webp",
+        "description": ""
+    }
+]
