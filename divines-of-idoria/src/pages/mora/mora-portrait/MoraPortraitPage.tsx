@@ -1,8 +1,6 @@
 import { useEffect } from "react";
-import "./MoraPortraitPage.css";
 import { Route, Routes } from "react-router";
 import Gallery from "../../../components/Gallery/Gallery";
-
 import PreviewPortraitLossless from "../../../assets/mora-assets/preview/preview-portrait-lossless.webp";
 import DownloadPortraitLossless from "../../../assets/mora-assets/downloadable/portrait-lossless.png";
 import DownloadPortraitCompressed from "../../../assets/mora-assets/downloadable/portrait-compressed.jpg";
@@ -12,6 +10,8 @@ import PreviewPortraitSketch from "../../../assets/mora-assets/preview/preview-p
 import DownloadPortraitSketch from "../../../assets/mora-assets/downloadable/portrait-sketch.png";
 import PreviewPortraitSketchLegacy from "../../../assets/mora-assets/preview/preview-portrait-sketch-legacy.webp";
 import DownloadPortraitSketchLegacy from "../../../assets/mora-assets/downloadable/portrait-sketch-legacy.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const MoraPortraitItems = [
     {
@@ -43,7 +43,10 @@ function DisplayMoraPortraitPage() {
     }, []);
 
     return (
-        <Gallery deity="Mora" projectName="Portrait" items={MoraPortraitItems}/>
+        <>
+            <Gallery deity="Mora" projectName="Portrait" items={MoraPortraitItems}/>
+            <ProjectsDNA projectName="Mora Portrait" projectsDNA={ProjectsDNAData}/>
+        </>
     );
 };
 

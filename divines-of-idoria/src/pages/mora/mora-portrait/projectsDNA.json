@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Lots hair",
+        "source": "projectsDNA/mora/portrait/lots-hair.webp",
+        "description": "Scattering lots of hair across the canvas, to support find a good overall flow."
+    },
+    {
+        "name": "Ten hands",
+        "source": "projectsDNA/mora/portrait/ten-hands.webp",
+        "description": ""
+    },
+    {
+        "name": "Creepy eyes",
+        "source": "projectsDNA/mora/portrait/creepy-eyes.webp",
+        "description": "Alternative version using eyes, though this would not fit Mora's character and was disgarded."
+    },
+    {
+        "name": "Skin no glow",
+        "source": "projectsDNA/mora/portrait/skin-no-glow.webp",
+        "description": "Applied paint without lighting effects. It's fundamentally pale to let the glow pop."
+    },
+    {
+        "name": "Skin glow",
+        "source": "projectsDNA/mora/portrait/skin-glow.webp",
+        "description": ""
+    },
+    {
+        "name": "Red hair",
+        "source": "projectsDNA/mora/portrait/red-hair.webp",
+        "description": "Hair is covered in red, with parts and chunks then erased to produce a nice fading blend."
+    },
+    {
+        "name": "Blue hair",
+        "source": "projectsDNA/mora/portrait/blue-hair.webp",
+        "description": ""
+    },
+    {
+        "name": "Finished result",
+        "source": "projectsDNA/mora/portrait/preview-portrait-legacy.webp",
+        "description": ""
+    }
+]
