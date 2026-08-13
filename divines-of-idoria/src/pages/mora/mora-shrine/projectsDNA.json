@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Designs",
+        "source": "projectsDNA/mora/shrine/designs.webp",
+        "description": "Different designs."
+    },
+    {
+        "name": "CSP gradient",
+        "source": "projectsDNA/mora/shrine/csp-gradient.webp",
+        "description": "Applying gradients and foundational colors in raster art software."
+    },
+    {
+        "name": "CSP without color dodge",
+        "source": "projectsDNA/mora/shrine/csp-without-color-dodge.webp",
+        "description": "Full colors without lighting effect."
+    },
+    {
+        "name": "CSP with color dodge",
+        "source": "projectsDNA/mora/shrine/csp-with-color-dodge.webp",
+        "description": "Full colors with lighting effect."
+    },
+    {
+        "name": "Final",
+        "source": "projectsDNA/mora/shrine/final.webp",
+        "description": ""
+    }
+]

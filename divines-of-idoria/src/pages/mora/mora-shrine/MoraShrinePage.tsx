@@ -1,11 +1,12 @@
 import { useEffect } from "react";
-import "./MoraShrinePage.css";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewMoraShrineLossless from "../../../assets/mora-assets/preview/preview-shrine-lossless.webp";
 import DownloadMoraShrineLossless from "../../../assets/mora-assets/downloadable/shrine-lossless.png";
 import PreviewMoraShrineEmpty from "../../../assets/mora-assets/preview/preview-shrine-empty.webp";
 import DownloadMoraShrineEmpty from "../../../assets/mora-assets/downloadable/shrine-empty.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const MoraShrineItems = [
     {
@@ -26,7 +27,10 @@ function DisplayMoraShrinePage() {
     }, []);
 
     return (
-        <Gallery deity="Mora" projectName="Shrine" items={MoraShrineItems}/>
+        <>
+            <Gallery deity="Mora" projectName="Shrine" items={MoraShrineItems}/>
+            <ProjectsDNA projectName="Mora Shrine" projectsDNA={ProjectsDNAData}/>
+        </>
     );
 };
 
