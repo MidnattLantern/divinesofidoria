@@ -1,0 +1,32 @@
+[
+    {
+        "name": "First phase",
+        "source": "projectsDNA/mora/symbol/first-phase.webp",
+        "description": "Table of design ideas, wave 1"
+    },
+    {
+        "name": "Second phase",
+        "source": "projectsDNA/mora/symbol/second-phase.webp",
+        "description": "Table of design ideas, wave 2"
+    },
+    {
+        "name": "Renditions",
+        "source": "projectsDNA/mora/symbol/renditions.webp",
+        "description": ""
+    },
+    {
+        "name": "Layers",
+        "source": "projectsDNA/mora/symbol/layers.webp",
+        "description": "Edges and gemstones are seperated to each layer."
+    },
+    {
+        "name": "Paint no shift",
+        "source": "projectsDNA/mora/symbol/paint-no-shift.webp",
+        "description": "The honest and canonical color of this gemstone. Before applying color overlay."
+    },
+    {
+        "name": "Final",
+        "source": "projectsDNA/mora/symbol/preview-icon.webp",
+        "description": "According to descriptions, its colors shift depending on exposure to light."
+    }
+]
