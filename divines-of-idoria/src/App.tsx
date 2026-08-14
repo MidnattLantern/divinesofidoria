@@ -5,39 +5,13 @@ import KorainPage from './pages/korian/KorainPage';
 import PooraatPage from './pages/pooraat/PooraatPage';
 import SunbawnPage from './pages/sunbawn/sunbawnPage';
 import DisplayHomePage from './pages/HomePage';
-
-function handleTogglePrimaryNavBar() {
-    const primaryNavBarElement = document.getElementById("primaryNavBar");
-    if (!primaryNavBarElement) return;
-    primaryNavBarElement.classList.toggle("phone-only-hidden");
-};
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
 
     return (
         <>
-            <button onClick={handleTogglePrimaryNavBar} id="togglePrimaryNavBarButton">menu</button>
-            <header id="primaryNavBar" className="phone-only-hidden">
-                <nav aria-label="Primary navigation bar">
-                    <ul>
-                        <li>
-                            <NavLink to={"/"} end>Home</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={"/mora-goddess"}>Mora</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={"/korain-god"}>Korain</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={"/pooraat-god"}>Po'oraat</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={"/sunbawn-god"}>Sunbawn</NavLink>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+            <NavBar/>
             <main>
                 <Routes>
                 <Route index element={<DisplayHomePage/>}/>
