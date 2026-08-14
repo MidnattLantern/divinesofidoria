@@ -26,7 +26,7 @@ function DisplayKorainShrinePage() {
     }, []);
 
     return (
-        <Gallery deity="Korain" projectName="Shrine" items={KorainShrineItems}/>
+        <Gallery deity="Korain" projectName="Shrine" items={KorainShrineItems} goBackURLDestination="/korain-god"/>
     );
 };
 

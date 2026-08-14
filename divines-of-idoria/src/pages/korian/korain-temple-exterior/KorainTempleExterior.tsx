@@ -19,7 +19,7 @@ const KorainTempleExteriorItems = [
 function DisplayKorainTempleExterior() {
     return (
         <>
-            <Gallery deity="Korain" projectName="Temple Exterior" items={KorainTempleExteriorItems}/>
+            <Gallery deity="Korain" projectName="Temple Exterior" items={KorainTempleExteriorItems} goBackURLDestination="/korain-god"/>
             <ProjectsDNA projectName="Korain Temple Exterior" projectsDNA={ProjectsDNAData}/>
         </>
     );

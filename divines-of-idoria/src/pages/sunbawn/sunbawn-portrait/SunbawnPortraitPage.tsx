@@ -30,7 +30,7 @@ function DisplaySunbawnPortraitPage() {
 
     return (
         <>
-            <Gallery deity="Sunbawn" projectName="Portrait" items={SunbawnPortraitItems}/>
+            <Gallery deity="Sunbawn" projectName="Portrait" items={SunbawnPortraitItems} goBackURLDestination="/sunbawn-god"/>
             <ProjectsDNA projectName="Sunbawn Portrait" projectsDNA={ProjectsDNAData}/>
         </>
     )

@@ -24,7 +24,7 @@ function DisplayPooraatSymbolPage() {
 
     return (
         <>
-            <Gallery deity="Po'oraat" projectName="Symbol" items={PooraatSymbolItems}/>
+            <Gallery deity="Po'oraat" projectName="Symbol" items={PooraatSymbolItems} goBackURLDestination="/pooraat-god"/>
             <ProjectsDNA projectName="Po'oraat symbol" projectsDNA={projectsDNA}/>
         </>
     );

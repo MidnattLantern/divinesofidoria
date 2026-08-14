@@ -28,7 +28,7 @@ function DisplayMoraShrinePage() {
 
     return (
         <>
-            <Gallery deity="Mora" projectName="Shrine" items={MoraShrineItems}/>
+            <Gallery deity="Mora" projectName="Shrine" items={MoraShrineItems} goBackURLDestination="/mora-goddess"/>
             <ProjectsDNA projectName="Mora Shrine" projectsDNA={ProjectsDNAData}/>
         </>
     );

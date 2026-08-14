@@ -38,7 +38,7 @@ function DisplayPooraatPortraitPage() {
 
     return (
         <>
-            <Gallery deity="Po'oraat" projectName="Portrait" items={PooratPortraitItems}/>
+            <Gallery deity="Po'oraat" projectName="Portrait" items={PooratPortraitItems} goBackURLDestination="/pooraat-god"/>
             <ProjectsDNA projectName="Po'oraat portrait" projectsDNA={projectsDNA}/>
         </>
     );

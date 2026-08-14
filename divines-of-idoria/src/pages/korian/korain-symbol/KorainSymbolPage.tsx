@@ -23,7 +23,7 @@ function DisplayKorainSymbolPage() {
 
     return (
         <>
-            <Gallery deity="Korain" projectName="Symbol" items={KorainSymbolItems}/>
+            <Gallery deity="Korain" projectName="Symbol" items={KorainSymbolItems} goBackURLDestination="/korain-god"/>
             <ProjectsDNA projectName="Korain Symbol" projectsDNA={ProjectsDNAData}/>
         </>
     )

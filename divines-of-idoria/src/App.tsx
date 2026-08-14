@@ -12,13 +12,13 @@ function App() {
     return (
         <>
             <NavBar/>
-            <main>
+            <main tabIndex={0} id="testFocMe">
                 <Routes>
-                <Route index element={<DisplayHomePage/>}/>
-                <Route path='/mora-goddess/*' element={<MoraPage/>}/>
-                <Route path='/korain-god/*' element={<KorainPage/>}/>
-                <Route path='/pooraat-god/*' element={<PooraatPage/>}/>
-                <Route path='/sunbawn-god/*' element={<SunbawnPage/>}/>
+                    <Route index element={<DisplayHomePage/>}/>
+                    <Route path='/mora-goddess/*' element={<MoraPage/>}/>
+                    <Route path='/korain-god/*' element={<KorainPage/>}/>
+                    <Route path='/pooraat-god/*' element={<PooraatPage/>}/>
+                    <Route path='/sunbawn-god/*' element={<SunbawnPage/>}/>
                 </Routes>
             </main>
             <footer>

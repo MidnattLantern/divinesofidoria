@@ -33,7 +33,7 @@ function DisplaySunbawnSymbolPage() {
 
     return (
         <>
-            <Gallery deity="Sunbawn" projectName="Symbol" items={SunbawnSymbolItems}/>
+            <Gallery deity="Sunbawn" projectName="Symbol" items={SunbawnSymbolItems} goBackURLDestination="/sunbawn-god"/>
             <ProjectsDNA projectName="Symbol" projectsDNA={projectsDNAData}/>
         </>
     );

@@ -24,7 +24,7 @@ function DisplaySunbawnTemplePage() {
 
     return (
         <>
-            <Gallery deity="Sunbawn" projectName="Temple" items={SunbawnTempleItems}/>
+            <Gallery deity="Sunbawn" projectName="Temple" items={SunbawnTempleItems} goBackURLDestination="/sunbawn-god"/>
             <ProjectsDNA projectName="Temple" projectsDNA={projectsDNAData}/>
         </>
     );

@@ -22,7 +22,7 @@ function DisplayPooraatTemplePage() {
     }, []);
 
     return (
-        <Gallery deity="Po'oraat" projectName="Temple" items={PooraatTempleItems}/>
+        <Gallery deity="Po'oraat" projectName="Temple" items={PooraatTempleItems} goBackURLDestination="/pooraat-god"/>
     );
 };
 

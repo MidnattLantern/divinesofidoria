@@ -24,7 +24,7 @@ function DisplayMoraTempleExteriorPage() {
 
     return (
         <>
-            <Gallery deity="Mora" projectName="Temple Exterior" items={MoraTempleExteriorItems}/>
+            <Gallery deity="Mora" projectName="Temple Exterior" items={MoraTempleExteriorItems} goBackURLDestination="/mora-goddess"/>
             <ProjectsDNA projectName="More Temple Exterior" projectsDNA={ProjectsDNAData}/>
         </>
     );

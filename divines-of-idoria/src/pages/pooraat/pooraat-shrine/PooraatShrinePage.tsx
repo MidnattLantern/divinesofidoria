@@ -26,7 +26,7 @@ function DisplayPooraatShrinePage() {
     }, []);
 
     return (
-        <Gallery deity="Po'orat" projectName="Shrine" items={PooraatShrineItems}/>
+        <Gallery deity="Po'orat" projectName="Shrine" items={PooraatShrineItems} goBackURLDestination="/pooraat-god"/>
     )
 }
 

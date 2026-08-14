@@ -25,7 +25,7 @@ function DisplayKorainTempleInterior() {
 
     return (
         <>
-           <Gallery deity="Korain" projectName="Temple Interior" items={KorainTempleInteriorItems}/>
+           <Gallery deity="Korain" projectName="Temple Interior" items={KorainTempleInteriorItems} goBackURLDestination="/korain-god"/>
            <ProjectsDNA projectName="Korain temple interior" projectsDNA={projectsDNA}/>
         </>
     );

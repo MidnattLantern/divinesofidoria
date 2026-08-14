@@ -1,3 +1,9 @@
+@keyframes pulse-footer {
+    0% {background-color: var(--theme);}
+    50% {background-color: var(--theme-accent);}
+    100% {background-color: var(--theme);}
+}
+
 #togglePrimaryNavBarButton {
     position: fixed;
     bottom: 20px;
@@ -29,12 +35,12 @@ footer {
     bottom: 0;
     width: 100%;
     height: var(--footer-height);
-    background-color: var(--theme);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+    animation: pulse-footer 30s infinite;
 
     a {
         color: white;
@@ -58,9 +64,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    main {
-        margin-top: 100px;
-    }
 
     footer {
         flex-direction: row;

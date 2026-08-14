@@ -30,7 +30,7 @@ function DisplayKorainPortraitPage() {
 
     return (
         <>
-            <Gallery deity="Korain" projectName="Portrait" items={KorainPortraitItems}/>
+            <Gallery deity="Korain" projectName="Portrait" items={KorainPortraitItems} goBackURLDestination="/korain-god"/>
             <ProjectsDNA projectName="Korain Portrait" projectsDNA={ProjectsDNAData}/>
         </>
     );

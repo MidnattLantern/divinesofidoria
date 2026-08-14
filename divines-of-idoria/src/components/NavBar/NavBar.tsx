@@ -12,32 +12,37 @@ function NavBar() {
 
     function handleHideNavBar() {
         setShowNavBar(false);
+        document.getElementById("testFocMe")?.focus();
     };
 
     return (
-        <header onClick={showNavBar ? handleHideNavBar : () => {}} className={showNavBar ? "" : "header-no-events"} id="primaryNavBar">
-            <button className="toggle-navbar-button" onClick={handleToggleShowNavBar}>
+        <header
+        onClick={showNavBar ? handleHideNavBar : undefined}
+        className={showNavBar ? "" : "header-no-events"}
+        id="primaryNavBar"
+        >
+            <button tabIndex={0} className="toggle-navbar-button" onClick={handleToggleShowNavBar}>
                 <BurgerMenu/>
             </button>
                 <nav className={showNavBar ? "header-is-visible" : "header-is-hidden"} id="primaryNavigationBar" aria-label="Primary navigation bar">
                     <ul>
                         <li>
-                            <NavLink to={"/"} end tabIndex={showNavBar ? 0 : -1}>Home</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/"} end>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/mora-goddess"} tabIndex={showNavBar ? 0 : -1}>Mora</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/mora-goddess"}>Mora</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/korain-god"} tabIndex={showNavBar ? 0 : -1}>Korain</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/korain-god"}>Korain</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/pooraat-god"} tabIndex={showNavBar ? 0 : -1}>Po'oraat</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/pooraat-god"}>Po'oraat</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/sunbawn-god"} tabIndex={showNavBar ? 0 : -1}>Sunbawn</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/sunbawn-god"}>Sunbawn</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/idor-god"} tabIndex={showNavBar ? 0 : -1}>Idor</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/idor-god"}>Idor</NavLink>
                         </li>
                     </ul>
                 </nav>

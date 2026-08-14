@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import { NavLink } from "react-router";
 import GalleryCard from "../GalleryCard/GalleryCard";
 import "./Gallery.css";
 import GoBackIcon from "../../assets/vector-icons/go-back-arrow.svg?react";
@@ -15,10 +15,11 @@ interface Props {
     deity: string;
     projectName: string;
     items: GalleryItem[];
+    goBackURLDestination: string
 };
 
-function Gallery({ deity, projectName, items }: Props) {
-    const navigate = useNavigate();
+// NOTE: Don't forget the / for URL destination
+function Gallery({ deity, projectName, items, goBackURLDestination}: Props) {
 
     return (
         <section className="gallery-view">
@@ -26,7 +27,7 @@ function Gallery({ deity, projectName, items }: Props) {
                 <span>{deity}</span>
                 <span>{projectName}</span>
             </h1>
-            <button className="go-back-button" onClick={() => navigate(-1)}><GoBackIcon/></button>
+            <NavLink className="go-back-button" to={goBackURLDestination}><GoBackIcon/></NavLink>
             <ul>
                 {items.map((item) => (
                     <li key={item.title}>
