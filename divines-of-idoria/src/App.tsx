@@ -7,6 +7,7 @@ import PooraatPage from './pages/pooraat/PooraatPage';
 import SunbawnPage from './pages/sunbawn/sunbawnPage';
 import DisplayHomePage from './pages/HomePage';
 import NavBar from './components/NavBar/NavBar';
+import IdorPage from './pages/idor/idorPage';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                     <Route path='/korain-god/*' element={<KorainPage/>}/>
                     <Route path='/pooraat-god/*' element={<PooraatPage/>}/>
                     <Route path='/sunbawn-god/*' element={<SunbawnPage/>}/>
+                    <Route path='/idor-god/*' element={<IdorPage/>}/>
                     <Route path='/about/*' element={<AboutPage/>}/>
                 </Routes>
             </main>

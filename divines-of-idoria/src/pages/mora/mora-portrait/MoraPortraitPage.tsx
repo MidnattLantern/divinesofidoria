@@ -8,8 +8,8 @@ import PreviewPortraitLegacy from "../../../assets/mora-assets/preview/preview-p
 import DownloadPortraitLegacy from "../../../assets/mora-assets/downloadable/portrait-legacy.png";
 import PreviewPortraitSketch from "../../../assets/mora-assets/preview/preview-portrait-sketch.webp";
 import DownloadPortraitSketch from "../../../assets/mora-assets/downloadable/portrait-sketch.png";
-import PreviewPortraitSketchLegacy from "../../../assets/mora-assets/preview/preview-portrait-sketch-legacy.webp";
-import DownloadPortraitSketchLegacy from "../../../assets/mora-assets/downloadable/portrait-sketch-legacy.png";
+// import PreviewPortraitSketchLegacy from "../../../assets/mora-assets/preview/preview-portrait-sketch-legacy.webp";
+// import DownloadPortraitSketchLegacy from "../../../assets/mora-assets/downloadable/portrait-sketch-legacy.png";
 import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
 import ProjectsDNAData from "./projectsDNA.json";
 
@@ -29,12 +29,12 @@ const MoraPortraitItems = [
         title: "Sketch",
         previewSource: PreviewPortraitSketch,
         downloadSource: DownloadPortraitSketch
-    },
-    {
-        title: "Sketch Legacy",
-        previewSource: PreviewPortraitSketchLegacy,
-        downloadSource: DownloadPortraitSketchLegacy
     }
+    // {
+    //     title: "Sketch Legacy",
+    //     previewSource: PreviewPortraitSketchLegacy,
+    //     downloadSource: DownloadPortraitSketchLegacy
+    // }
 ];
 
 function DisplayMoraPortraitPage() {

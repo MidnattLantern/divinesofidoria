@@ -6,6 +6,11 @@ import MoraTempleInteriorPage from "./mora-temple-interior/MoraTempleInteriorPag
 import MoraTempleExteriorPage from "./mora-temple-exterior/MoraTempleExteriorPage";
 import MoraShrinePage from "./mora-shrine/MoraShrinePage";
 import { useEffect } from "react";
+import portraitPreviewImage from "../../assets/mora-assets/preview/preview-portrait-lossless.webp";
+import symbolPreviewImage from "../../assets/mora-assets/preview/preview-icon.webp";
+import templeInteriorPreviewImage from "../../assets/mora-assets/preview/preview-temple-interior.webp";
+import templeExteriorPreviewImage from "../../assets/mora-assets/preview/preview-temple-exterior.webp";
+import shrinePreviewImage from "../../assets/mora-assets/preview/preview-shrine-empty.webp";
 
 function DisplayMoraPage() {
     useEffect(() => {
@@ -15,11 +20,26 @@ function DisplayMoraPage() {
     return (
         <div className="mora-page-view">
             <h1>Mora Goddess</h1>
-            <NavLink to={"portrait"}>Portrait</NavLink>
-            <NavLink to={"symbol"}>Symbol</NavLink>
-            <NavLink to={"temple-interior"}>Temple Interior</NavLink>
-            <NavLink to={"temple-exterior"}>Temple Exterior</NavLink>
-            <NavLink to={"shrine"}>Shrine</NavLink>
+            <NavLink to={"portrait"}>
+                <span>Portrait</span>
+                <img src={portraitPreviewImage} alt="Portrait Preview"/>
+            </NavLink>
+            <NavLink to={"symbol"}>
+                <span>Symbol</span>
+                <img src={symbolPreviewImage} alt="Symbol Preview"/>
+            </NavLink>
+            <NavLink to={"temple-interior"}>
+                <span aria-label="Temple Interior">Temple Int.</span>
+                <img src={templeInteriorPreviewImage} alt="Temple Interior Preview"/>
+            </NavLink>
+            <NavLink to={"temple-exterior"}>
+                <span aria-label="Temple Exterior">Temple Ext.</span>
+                <img src={templeExteriorPreviewImage} alt="Temple Exterior Preview"/>
+            </NavLink>
+            <NavLink to={"shrine"}>
+                <span>Shrine</span>
+                <img src={shrinePreviewImage} alt="Shrine Preview"/>
+            </NavLink>
         </div>
     );
 };
