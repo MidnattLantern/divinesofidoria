@@ -25,6 +25,9 @@ function NavBar() {
                 <BurgerMenu/>
             </button>
                 <nav className={showNavBar ? "header-is-visible" : "header-is-hidden"} id="primaryNavigationBar" aria-label="Primary navigation bar">
+                    <div className="navbar-logo">
+                        <NavLink onClick={handleHideNavBar} to={"/"} end>Divines Of Idoria</NavLink>
+                    </div>
                     <ul>
                         <li>
                             <NavLink onClick={handleHideNavBar} to={"/"} end>Home</NavLink>
@@ -43,6 +46,11 @@ function NavBar() {
                         </li>
                         <li>
                             <NavLink onClick={handleHideNavBar} to={"/idor-god"}>Idor</NavLink>
+                        </li>
+                    </ul>
+                    <ul className="bottom-section">
+                        <li>
+                            <NavLink onClick={handleHideNavBar} to={"/aboout"} end>About</NavLink>
                         </li>
                     </ul>
                 </nav>

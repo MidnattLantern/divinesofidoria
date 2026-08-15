@@ -1,3 +1,9 @@
+@keyframes pulse-go-back {
+    0% {fill: var(--theme-light); border-color: var(--theme-light);}
+    0% {fill: var(--theme-accent-light); border-color: var(--theme-accent-light);}
+    100% {fill: var(--theme-light); border-color: var(--theme-light);}
+}
+
 .gallery-view {
     position: relative;
     display: flex;
@@ -9,23 +15,25 @@
 }
 
 .go-back-button {
-    position: absolute;
-    top: 0;
-    left: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
     background-color: var(--black-transparent);
     backdrop-filter: blur(1px);
-    border: 1px solid var(--white-transparent);
+    border: 2px solid var(--white);
     fill: var(--white);
     padding: 10px;
+    z-index: 1;
 }
 
-.go-back-button:hover {
-    fill: var(--theme-transparent);
-    color: var(--theme-light);
+.go-back-button:hover,
+.go-back-button:focus {
+    animation: pulse-go-back 5s infinite;
     cursor: pointer;
+    outline: none;
 }
 
 .gallery-view > h1 {
@@ -39,6 +47,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .go-back-button {
+        left: 230px;
+    }
+
     .gallery-view > ul {
         flex-direction: row;
     }

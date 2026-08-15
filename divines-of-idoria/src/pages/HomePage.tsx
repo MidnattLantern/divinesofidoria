@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./HomePage.css";
+import "./HomePage.scss";
 import MoraPosterImage from "../assets/mora-assets/posters/mora-superposter.webp";
 import KorainPosterImage from "../assets/korain-assets/posters/Korain-super-poster.webp";
 import PooraatPosterImage from "../assets/pooraat-assets/posters/pooraat-god-poster.png";

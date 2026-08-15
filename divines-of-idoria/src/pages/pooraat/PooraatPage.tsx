@@ -1,5 +1,5 @@
 import { NavLink, Route, Routes } from "react-router";
-import "./PooraatPage.css";
+import "./PooraatPage.scss";
 import PooraatSymbolPage from "./pooraat-symbol/PooraatSymbolPage";
 import PooraatPortraitPage from "./pooraat-portrait/PooraatPortraitPage";
 import PooraatTemplePage from "./pooraat-temple/PooraatTemplePage";

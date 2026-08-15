@@ -1,5 +1,5 @@
 import { NavLink, Route, Routes } from "react-router";
-import "./MoraPage.css";
+import "./MoraPage.scss";
 import MoraPortraitPage from "./mora-portrait/MoraPortraitPage";
 import MoraSymbolPage from "./mora-symbol/MoraSymbolPage";
 import MoraTempleInteriorPage from "./mora-temple-interior/MoraTempleInteriorPage";

@@ -1,5 +1,5 @@
 import { NavLink, Route, Routes } from "react-router";
-import "./KorainPage.css";
+import "./KorainPage.scss";
 import KorainPortraitPage from "./korain-portrait/KorainPortraitPage";
 import KorainSymbolPage from "./korain-symbol/KorainSymbolPage";
 import KorainTempleInterior from "./korain-temple-interior/KorainTempleInterior";

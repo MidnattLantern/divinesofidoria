@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./sunbawnPage.css";
+import "./sunbawnPage.scss";
 import { NavLink, Route, Routes } from "react-router";
 import SunbawnSymbolPage from "./sunbawn-symbol/SunbawnSymbolPage";
 import SunbawnShrinePage from "./sunbawn-shrine/SunbawnShrinePage";
@@ -12,7 +12,7 @@ function DisplaySunbawnPage() {
     }, []);
 
     return (
-        <div className="sunbawn-page-view">
+        <div className="sunbawn-page-view2">
             <h1>Sunbawn God</h1>
             <NavLink to={"portrait"}>Portrait</NavLink>
             <NavLink to={"symbol"}>Symbol</NavLink>

@@ -22,7 +22,7 @@ function App() {
                 </Routes>
             </main>
             <footer>
-                <NavLink to={"/"} >Home</NavLink>
+                <NavLink to={"/about"}>About</NavLink>
                 <a href="https://midnattlantern.github.io/portfolio/" target='_blank'>Developer & artist homepage</a>
                 <a href="https://www.worldanvil.com/w/idoria-yviira/" target="_blank">World of Idoria</a>
                 <a href="https://github.com/MidnattLantern/divinesofidoria#ai-disclosure" target="_blank" aria-label="AI disclosure">

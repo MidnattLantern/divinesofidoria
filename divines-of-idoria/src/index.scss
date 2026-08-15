@@ -35,6 +35,11 @@ body {
     min-height: 100vh;
 }
 
+#root {
+    display: flex;
+    justify-content: center;
+}
+
 h1, h2, h3 {
     font-family: var(--font-sans);
 }
