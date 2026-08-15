@@ -10,7 +10,7 @@ function DisplayIdorPage() {
     return (
         <div className="Idor-page-view">
             <h1>Idor God</h1>
-            <p>Comming soon</p>
+            <p>Coming soon</p>
             {/* <NavLink to={"portrait"}>Portrait</NavLink> */}
         </div>
     );

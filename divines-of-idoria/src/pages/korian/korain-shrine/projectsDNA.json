@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Twisting fins",
+        "source": "projectsDNA/korain/shrine/twisting-fins.webp",
+        "description": "The same raster sketch for the symbol is repurposed, this time, to make a 3D model with curves."
+    },
+    {
+        "name": "Mirror wing",
+        "source": "projectsDNA/korain/shrine/mirror-wing.webp",
+        "description": "Mirroring from a bird's eye view."
+    },
+    {
+        "name": "Fin",
+        "source": "projectsDNA/korain/shrine/fin.webp",
+        "description": "The curved fin has been mirrored and is being curved."
+    },
+    {
+        "name": "Wing solidify",
+        "source": "projectsDNA/korain/shrine/wing-solidify.webp",
+        "description": "The wing is modified to have depth."
+    },
+    {
+        "name": "Front of sketch",
+        "source": "projectsDNA/korain/shrine/front-of-sketch.webp",
+        "description": "The raster sketch has been in the background as scale reference."
+    },
+    {
+        "name": "Bone can tilt",
+        "source": "projectsDNA/korain/shrine/bone-can-tilt.webp",
+        "description": "Bones are linked to model so that the scale can be tilted, if needed."
+    },
+    {
+        "name": "Tilted",
+        "source": "projectsDNA/korain/shrine/tilted.webp",
+        "description": "Scale tilt demonstration."
+    },
+    {
+        "name": "Rendition options",
+        "source": "projectsDNA/korain/shrine/rendition-options.webp",
+        "description": "Showcasing different shrine model ideas. The convention for the rest of the deities shrines is also getting established."
+    },
+    {
+        "name": "Scale trace",
+        "source": "projectsDNA/korain/shrine/scale-trace.webp",
+        "description": "The 3D rendition is traced from the raster art software."
+    },
+    {
+        "name": "Symbol sections",
+        "source": "projectsDNA/korain/shrine/symbol-sections.webp",
+        "description": "Parts and edges are sepereated to three layers as demonstrated, making shading easier."
+    },
+    {
+        "name": "Finished",
+        "source": "projectsDNA/korain/shrine/finished.webp",
+        "description": "Shading and coloring is applied."
+    }
+]

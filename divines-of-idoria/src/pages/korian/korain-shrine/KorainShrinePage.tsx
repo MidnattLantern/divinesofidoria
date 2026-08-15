@@ -1,11 +1,12 @@
 import { useEffect } from "react";
-import "./KorainShrinePage.css";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";
 import PreviewKorainShrineLossless from "../../../assets/korain-assets/preview/preview-shrine-lossless.webp";
 import DownloadKorainShrineLossless from "../../../assets/korain-assets/downloadable/shrine-lossless.png";
 import PreviewKorainShrineEmpty from "../../../assets/korain-assets/preview/preview-shrine-empty.webp";
 import DownloadKorainShrineEmpty from "../../../assets/korain-assets/downloadable/shrine-empty.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import projectsDNA from "./projectsDNA.json";
 
 const KorainShrineItems = [
     {
@@ -26,7 +27,10 @@ function DisplayKorainShrinePage() {
     }, []);
 
     return (
-        <Gallery deity="Korain" projectName="Shrine" items={KorainShrineItems} goBackURLDestination="/korain-god"/>
+        <>
+            <Gallery deity="Korain" projectName="Shrine" items={KorainShrineItems} goBackURLDestination="/korain-god"/>
+            <ProjectsDNA projectName="Korain temple interior" projectsDNA={projectsDNA}/>
+        </>
     );
 };
 

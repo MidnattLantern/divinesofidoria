@@ -15,8 +15,8 @@ function ProjectsDirectory({
 
     return (
         <div className="projects-directory">
-            {projectsDirectory.map((project) => (
-                <NavLink to={project.linkTo}>
+            {projectsDirectory.map((project, index) => (
+                <NavLink key={index} to={project.linkTo}>
                     <span>{project.name}</span>
                     <img src={project.previewImage} alt={`${project.name} Preview`}/>
                 </NavLink>
