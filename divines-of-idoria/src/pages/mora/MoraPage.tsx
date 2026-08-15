@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes } from "react-router";
+import { Route, Routes } from "react-router";
 import "./MoraPage.scss";
 import MoraPortraitPage from "./mora-portrait/MoraPortraitPage";
 import MoraSymbolPage from "./mora-symbol/MoraSymbolPage";
@@ -11,35 +11,45 @@ import symbolPreviewImage from "../../assets/mora-assets/preview/preview-icon.we
 import templeInteriorPreviewImage from "../../assets/mora-assets/preview/preview-temple-interior.webp";
 import templeExteriorPreviewImage from "../../assets/mora-assets/preview/preview-temple-exterior.webp";
 import shrinePreviewImage from "../../assets/mora-assets/preview/preview-shrine-empty.webp";
+import ProjectsDirectory from "../../components/projectsDirectory/ProjectsDirectory";
 
 function DisplayMoraPage() {
     useEffect(() => {
         document.title = "Idoria | Mora Goddes";
     }, []);
 
+    const projectsDirectory = [
+        {
+            name: "Portrait",
+            linkTo: "portrait",
+            previewImage: portraitPreviewImage
+        },
+        {
+            name: "Symbol",
+            linkTo: "symbol",
+            previewImage: symbolPreviewImage
+        },
+        {
+            name: "Temple Interior",
+            linkTo: "temple-interior",
+            previewImage: templeInteriorPreviewImage
+        },
+        {
+            name: "Temple Exterior",
+            linkTo: "temple-exterior",
+            previewImage: templeExteriorPreviewImage
+        },
+        {
+            name: "Shrine",
+            linkTo: "shrine",
+            previewImage: shrinePreviewImage
+        }
+    ];
+
     return (
         <div className="mora-page-view">
             <h1>Mora Goddess</h1>
-            <NavLink to={"portrait"}>
-                <span>Portrait</span>
-                <img src={portraitPreviewImage} alt="Portrait Preview"/>
-            </NavLink>
-            <NavLink to={"symbol"}>
-                <span>Symbol</span>
-                <img src={symbolPreviewImage} alt="Symbol Preview"/>
-            </NavLink>
-            <NavLink to={"temple-interior"}>
-                <span aria-label="Temple Interior">Temple Int.</span>
-                <img src={templeInteriorPreviewImage} alt="Temple Interior Preview"/>
-            </NavLink>
-            <NavLink to={"temple-exterior"}>
-                <span aria-label="Temple Exterior">Temple Ext.</span>
-                <img src={templeExteriorPreviewImage} alt="Temple Exterior Preview"/>
-            </NavLink>
-            <NavLink to={"shrine"}>
-                <span>Shrine</span>
-                <img src={shrinePreviewImage} alt="Shrine Preview"/>
-            </NavLink>
+            <ProjectsDirectory projectsDirectory={projectsDirectory}/>
         </div>
     );
 };
