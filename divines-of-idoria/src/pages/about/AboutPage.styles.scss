@@ -1,0 +1,78 @@
+@keyframes pulse-focus-anchor {
+    0% {color: var(--theme-light)}
+    50% {color: var(--theme-accent-light)}
+    100% {color: var(--theme-light)}
+}
+
+@keyframes pulse-focus-anchor-newtab {
+    0% {background: var(--theme-light)}
+    50% {background: var(--theme-accent-light)}
+    100% {background: var(--theme-light)}
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    section {
+        width: 100%;
+        border-top: 1px dotted var(--white-transparent);
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+
+        h2 {
+            font-family: var(--font-serif);
+            text-transform: none;
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
+        }
+
+        br {
+            display: block;
+            margin: 0.5rem;
+        }
+
+        a {
+            text-decoration: underline;
+            color: var(--theme);
+        }
+
+        a:hover{
+            color: var(--theme-light);
+        }
+
+        a:focus {
+            outline: none;
+            animation: pulse-focus-anchor 2s infinite;
+        }
+
+        a:hover::after,
+        a:focus::after {
+            content: '';
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            mask-image: url("newtab-icon.svg");
+            mask-size: contain;
+            mask-repeat: no-repeat;
+            margin-left: 0.5rem;
+        }
+
+        a:hover::after {
+            background: var(--theme-light);
+        }
+        a:focus::after {
+            animation: pulse-focus-anchor-newtab 2s infinite;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-page {
+        width: 750px;
+    }
+}

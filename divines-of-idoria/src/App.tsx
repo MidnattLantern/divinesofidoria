@@ -1,5 +1,6 @@
 import { NavLink, Route, Routes } from 'react-router';
 import './App.scss'
+import AboutPage from './pages/about/AboutPage';
 import MoraPage from './pages/mora/MoraPage';
 import KorainPage from './pages/korian/KorainPage';
 import PooraatPage from './pages/pooraat/PooraatPage';
@@ -19,6 +20,7 @@ function App() {
                     <Route path='/korain-god/*' element={<KorainPage/>}/>
                     <Route path='/pooraat-god/*' element={<PooraatPage/>}/>
                     <Route path='/sunbawn-god/*' element={<SunbawnPage/>}/>
+                    <Route path='/about/*' element={<AboutPage/>}/>
                 </Routes>
             </main>
             <footer>

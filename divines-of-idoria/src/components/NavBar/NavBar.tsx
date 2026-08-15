@@ -30,9 +30,6 @@ function NavBar() {
                     </div>
                     <ul>
                         <li>
-                            <NavLink onClick={handleHideNavBar} to={"/"} end>Home</NavLink>
-                        </li>
-                        <li>
                             <NavLink onClick={handleHideNavBar} to={"/mora-goddess"}>Mora</NavLink>
                         </li>
                         <li>
@@ -50,7 +47,10 @@ function NavBar() {
                     </ul>
                     <ul className="bottom-section">
                         <li>
-                            <NavLink onClick={handleHideNavBar} to={"/aboout"} end>About</NavLink>
+                            <NavLink onClick={handleHideNavBar} to={"/"} end>Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink onClick={handleHideNavBar} to={"/about"} end>About</NavLink>
                         </li>
                     </ul>
                 </nav>

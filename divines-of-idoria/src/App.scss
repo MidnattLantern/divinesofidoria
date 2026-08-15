@@ -21,6 +21,9 @@
 }
 
 main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 20px;
     padding-bottom: calc(var(--footer-height) + 10px);
