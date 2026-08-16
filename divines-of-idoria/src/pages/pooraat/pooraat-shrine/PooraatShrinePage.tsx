@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router";
-import "./PooraatShrinePage.css";
 import { useEffect } from "react";
 import Gallery from "../../../components/Gallery/Gallery";
 import PreviewOriginal from "../../../assets/pooraat-assets/preveiw/preview-shrine-original.webp";
 import DownloadOriginal from "../../../assets/pooraat-assets/downloadable/shrine-original.png";
 import PreviewNoItems from "../../../assets/pooraat-assets/preveiw/preview-shrine-empty.webp";
 import DownloadNoItems from "../../../assets/pooraat-assets/downloadable/shrine-empty.png";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const PooraatShrineItems = [
     {
@@ -26,7 +27,10 @@ function DisplayPooraatShrinePage() {
     }, []);
 
     return (
-        <Gallery deity="Po'orat" projectName="Shrine" items={PooraatShrineItems} goBackURLDestination="/pooraat-god"/>
+        <>
+            <Gallery deity="Po'orat" projectName="Shrine" items={PooraatShrineItems} goBackURLDestination="/pooraat-god"/>
+            <ProjectsDNA projectName="Po'oraat Shrine" projectsDNA={ProjectsDNAData}/>
+        </>
     )
 }
 

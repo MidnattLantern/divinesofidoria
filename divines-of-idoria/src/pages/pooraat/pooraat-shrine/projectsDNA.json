@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Renditions",
+        "source": "projectsDNA/pooraat/shrine/renditions.webp",
+        "description": "Multiple design ideas and proposals."
+    },
+    {
+        "name": "Final render",
+        "source": "projectsDNA/pooraat/shrine/final-render.webp",
+        "description": "This is the design that was final."
+    },
+    {
+        "name": "Final",
+        "source": "projectsDNA/pooraat/shrine/final.webp",
+        "description": "texture, paint and shading is applied in the raster software."
+    }
+]
