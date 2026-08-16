@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "./PooraatPortraitPage.css";
 import projectsDNA from "./projectsDNA.json";
 import Gallery from "../../../components/Gallery/Gallery";
 import { Route, Routes } from "react-router";

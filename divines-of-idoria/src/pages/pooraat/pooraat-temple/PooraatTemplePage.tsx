@@ -1,10 +1,11 @@
-import "./PooraatTemplePage.css";
 import Gallery from "../../../components/Gallery/Gallery";
 import Preview from "../../../assets/pooraat-assets/preveiw/pooraat-temple-preview.webp";
 import DownloadLosless from "../../../assets/pooraat-assets/downloadable/pooraat-temple-lossless.png";
 import Download1MB from "../../../assets/pooraat-assets/downloadable/pooraat-temple-1mb.jpg";
 import { Route, Routes } from "react-router";
 import { useEffect } from "react";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const PooraatTempleItems = [
     {
@@ -22,7 +23,10 @@ function DisplayPooraatTemplePage() {
     }, []);
 
     return (
-        <Gallery deity="Po'oraat" projectName="Temple" items={PooraatTempleItems} goBackURLDestination="/pooraat-god"/>
+        <>
+            <Gallery deity="Po'oraat" projectName="Temple" items={PooraatTempleItems} goBackURLDestination="/pooraat-god"/>
+            <ProjectsDNA projectName="Po'oraat Temple" projectsDNA={ProjectsDNAData}/>
+        </>
     );
 };
 

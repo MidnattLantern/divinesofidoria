@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Thumbnail 1",
+        "source": "projectsDNA/pooraat/temple/thumbnail-1.webp",
+        "description": "This thumbnail feature less sky and more even hills."
+    },
+    {
+        "name": "Thumbnail 2",
+        "source": "projectsDNA/pooraat/temple/thumbnail-2.webp",
+        "description": "This thumbnail has more balance between sky and hills."
+    },
+    {
+        "name": "Thumbnail 3",
+        "source": "projectsDNA/pooraat/temple/thumbnail-3.webp",
+        "description": "This thumbnail has a balance between sky and ground, with mountains featuring a more rocky prifile."
+    },
+    {
+        "name": "Thumbnail B1",
+        "source": "projectsDNA/pooraat/temple/thumbnail-b1.webp",
+        "description": "A new thumbnail revised after feedback."
+    },
+    {
+        "name": "Thumbnail B2",
+        "source": "projectsDNA/pooraat/temple/thumbnail-b2.webp",
+        "description": "The revised thumbnail with more detail."
+    },
+    {
+        "name": "Adding texture",
+        "source": "projectsDNA/pooraat/temple/adding-texture.webp",
+        "description": "The painting is getting more details and textures."
+    },
+    {
+        "name": "Transitioning to colors",
+        "source": "projectsDNA/pooraat/temple/transitioning-to-colors.webp",
+        "description": "Applied levels escape the greyscale."
+    },
+    {
+        "name": "Finished",
+        "source": "projectsDNA/pooraat/temple/finished.webp",
+        "description": "Colors are getting shaded and lighting applied."
+    }
+]
