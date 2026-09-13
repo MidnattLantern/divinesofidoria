@@ -7,7 +7,7 @@ import PooraatPage from './pages/pooraat/PooraatPage';
 import SunbawnPage from './pages/sunbawn/sunbawnPage';
 import DisplayHomePage from './pages/HomePage';
 import NavBar from './components/NavBar/NavBar';
-import IdorPage from './pages/idor/idorPage';
+import IdorPage from './pages/idor/IdorPage';
 
 function App() {
 

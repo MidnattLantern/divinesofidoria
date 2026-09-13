@@ -6,6 +6,7 @@ import MoraSVGSymbol from "../../assets/vector-icons/mora-symbol.svg?react";
 import KorainSVGSymbol from "../../assets/vector-icons/korain-symbol.svg?react";
 import PooraatSVGSymbol from "../../assets/vector-icons/pooraat-symbol.svg?react";
 import SunbawnSVGSymbol from "../../assets/vector-icons/sunbawn-symbol-silhouette.svg?react";
+import IdorSVGSymbol from "../../assets/vector-icons/idor-symbool.svg?react";
 
 function NavBar() {
     const [showNavBar, setShowNavBar] = useState<boolean>(false);
@@ -60,7 +61,8 @@ function NavBar() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className={"justify-to-center"} onClick={handleHideNavBar} to={"/idor-god"}>
+                            <NavLink onClick={handleHideNavBar} to={"/idor-god"}>
+                                <IdorSVGSymbol/>
                                 <span>Idor</span>
                             </NavLink>
                         </li>
