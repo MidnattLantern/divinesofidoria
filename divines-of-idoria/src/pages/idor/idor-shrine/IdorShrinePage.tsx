@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router";
 import PreviewIdorShrinePreview from "../../../assets/idor-assets/preview/idor-shrine-preveiw.webp";
 import DownloadIdorShrineLossless from "../../../assets/idor-assets/downloadable/idor-shrine-lossless.png";
 import DownloadIdorShrineCompressed from "../../../assets/idor-assets/downloadable/idor-shrine-1mb.jpg";
+import ProjectsDNA from "../../../components/projectsDNA/projectsDNA";
+import ProjectsDNAData from "./projectsDNA.json";
 
 const IdorShrineItems = [
     {
@@ -22,6 +24,7 @@ function DisplayIdorShrinePage() {
     return (
         <>
             <Gallery deity="Idor" projectName="Shrine" items={IdorShrineItems} goBackURLDestination="/Idor-god"/>
+            <ProjectsDNA projectName="Idor Shrine" projectsDNA={ProjectsDNAData}/>
         </>
     )
 };

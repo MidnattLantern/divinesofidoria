@@ -1,17 +1,42 @@
 [
     {
-        "name": "",
-        "source": "",
+        "name": "Table designs",
+        "source": "projectsDNA/idor/shrine/table-designs.webp",
         "description": ""
     },
     {
-        "name": "",
-        "source": "",
+        "name": "Impossible triangle angles",
+        "source": "projectsDNA/idor/shrine/impossible-triangle-angles.webp",
         "description": ""
     },
     {
-        "name": "",
-        "source": "",
+        "name": "Shrine design",
+        "source": "projectsDNA/idor/shrine/shrine-design.webp",
+        "description": ""
+    },
+    {
+        "name": "Render",
+        "source": "projectsDNA/idor/shrine/render.webp",
+        "description": ""
+    },
+    {
+        "name": "Shrine texture",
+        "source": "projectsDNA/idor/shrine/shrine-texture.webp",
+        "description": ""
+    },
+    {
+        "name": "Enviroment texture",
+        "source": "projectsDNA/idor/shrine/enviroment-texture.webp",
+        "description": ""
+    },
+    {
+        "name": "Colors",
+        "source": "projectsDNA/idor/shrine/colors.webp",
+        "description": ""
+    },
+    {
+        "name": "Complete",
+        "source": "projectsDNA/idor/shrine/complete.webp",
         "description": ""
     }
 ]
