@@ -3,6 +3,7 @@ import "./HomePage.scss";
 import MoraPosterImage from "../assets/mora-assets/posters/mora-superposter.webp";
 import KorainPosterImage from "../assets/korain-assets/posters/Korain-super-poster.webp";
 import PooraatPosterImage from "../assets/pooraat-assets/posters/pooraat-god-poster.png";
+import SunbawnPosterImage from "../assets/sunbawn-assets/posters/sunbawn-superposter.webp";
 import { NavLink } from "react-router";
 
 function DisplayHomePage() {
@@ -21,6 +22,9 @@ function DisplayHomePage() {
             </NavLink>
             <NavLink to={"/pooraat-god"} className="home-page_navposter">
                 <img src={PooraatPosterImage} alt="Poster of Po'oraat" loading="lazy"/>
+            </NavLink>
+            <NavLink to={"/sunbawn-god"} className="home-page_navposter">
+                <img src={SunbawnPosterImage} alt="Poster of Sunbawn" loading="lazy"/>
             </NavLink>
         </section>
     );
